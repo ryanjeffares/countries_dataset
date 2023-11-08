@@ -44,7 +44,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 138.64,
                 "emmissions": 26.439999999999998
-            }
+            },
+            "country-code": 8
         },
         "Algeria": {
             "Beef": {
@@ -90,7 +91,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 185.42000000000002,
                 "emmissions": 35.36
-            }
+            },
+            "country-code": 12
         },
         "Angola": {
             "Beef": {
@@ -136,7 +138,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 40.720000000000006,
                 "emmissions": 7.7700000000000005
-            }
+            },
+            "country-code": 24
         },
         "Argentina": {
             "Beef": {
@@ -182,7 +185,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 103.11,
                 "emmissions": 19.66
-            }
+            },
+            "country-code": 32
         },
         "Armenia": {
             "Beef": {
@@ -228,7 +232,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 130.6,
                 "emmissions": 24.91
-            }
+            },
+            "country-code": 51
         },
         "Australia": {
             "Beef": {
@@ -274,7 +279,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 70.46000000000001,
                 "emmissions": 13.44
-            }
+            },
+            "country-code": 36
         },
         "Austria": {
             "Beef": {
@@ -320,7 +326,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 81.1,
                 "emmissions": 15.47
-            }
+            },
+            "country-code": 40
         },
         "Bahamas": {
             "Beef": {
@@ -366,7 +373,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 39.98,
                 "emmissions": 7.619999999999999
-            }
+            },
+            "country-code": 44
         },
         "Bangladesh": {
             "Beef": {
@@ -412,7 +420,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 17.47,
                 "emmissions": 3.3299999999999996
-            }
+            },
+            "country-code": 50
         },
         "Barbados": {
             "Beef": {
@@ -458,7 +467,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 65.71000000000001,
                 "emmissions": 12.53
-            }
+            },
+            "country-code": 52
         },
         "Belarus": {
             "Beef": {
@@ -504,7 +514,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 60.48,
                 "emmissions": 11.53
-            }
+            },
+            "country-code": 112
         },
         "Belgium": {
             "Beef": {
@@ -550,7 +561,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 111.91000000000001,
                 "emmissions": 21.34
-            }
+            },
+            "country-code": 56
         },
         "Belize": {
             "Beef": {
@@ -596,7 +608,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 54.06,
                 "emmissions": 10.31
-            }
+            },
+            "country-code": 84
         },
         "Bermuda": {
             "Beef": {
@@ -642,7 +655,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 54.879999999999995,
                 "emmissions": 10.47
-            }
+            },
+            "country-code": 60
         },
         "Bolivia": {
             "Beef": {
@@ -688,7 +702,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 49.99,
                 "emmissions": 9.53
-            }
+            },
+            "country-code": 68
         },
         "Bosnia and Herzegovina": {
             "Beef": {
@@ -734,7 +749,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 93.56,
                 "emmissions": 17.84
-            }
+            },
+            "country-code": 70
         },
         "Botswana": {
             "Beef": {
@@ -780,7 +796,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 38.2,
                 "emmissions": 7.28
-            }
+            },
+            "country-code": 72
         },
         "Brazil": {
             "Beef": {
@@ -826,7 +843,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 53.0,
                 "emmissions": 10.11
-            }
+            },
+            "country-code": 76
         },
         "Bulgaria": {
             "Beef": {
@@ -872,7 +890,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 121.16999999999999,
                 "emmissions": 23.110000000000003
-            }
+            },
+            "country-code": 100
         },
         "Cambodia": {
             "Beef": {
@@ -918,7 +937,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 2.74,
                 "emmissions": 0.52
-            }
+            },
+            "country-code": 116
         },
         "Cameroon": {
             "Beef": {
@@ -964,7 +984,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 22.6,
                 "emmissions": 4.31
-            }
+            },
+            "country-code": 120
         },
         "Canada": {
             "Beef": {
@@ -1010,7 +1031,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 84.96000000000001,
                 "emmissions": 16.2
-            }
+            },
+            "country-code": 124
         },
         "Chile": {
             "Beef": {
@@ -1056,7 +1078,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 104.74000000000001,
                 "emmissions": 19.97
-            }
+            },
+            "country-code": 152
         },
         "China": {
             "Beef": {
@@ -1102,7 +1125,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 63.36,
                 "emmissions": 12.08
-            }
+            },
+            "country-code": 156
         },
         "Colombia": {
             "Beef": {
@@ -1148,7 +1172,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 29.79,
                 "emmissions": 5.68
-            }
+            },
+            "country-code": 170
         },
         "Congo": {
             "Beef": {
@@ -1194,7 +1219,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 40.07,
                 "emmissions": 7.64
-            }
+            },
+            "country-code": 178
         },
         "Costa Rica": {
             "Beef": {
@@ -1240,7 +1266,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 39.309999999999995,
                 "emmissions": 7.5
-            }
+            },
+            "country-code": 188
         },
         "Croatia": {
             "Beef": {
@@ -1286,7 +1313,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 106.59,
                 "emmissions": 20.330000000000002
-            }
+            },
+            "country-code": 191
         },
         "Cuba": {
             "Beef": {
@@ -1332,7 +1360,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 54.620000000000005,
                 "emmissions": 10.42
-            }
+            },
+            "country-code": 192
         },
         "Cyprus": {
             "Beef": {
@@ -1378,7 +1407,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 83.25,
                 "emmissions": 15.88
-            }
+            },
+            "country-code": 196
         },
         "Czech Republic": {
             "Beef": {
@@ -1424,7 +1454,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 92.66999999999999,
                 "emmissions": 17.67
-            }
+            },
+            "country-code": 203
         },
         "Denmark": {
             "Beef": {
@@ -1470,7 +1501,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 98.0,
                 "emmissions": 18.69
-            }
+            },
+            "country-code": 208
         },
         "Ecuador": {
             "Beef": {
@@ -1516,7 +1548,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 39.190000000000005,
                 "emmissions": 7.470000000000001
-            }
+            },
+            "country-code": 218
         },
         "Egypt": {
             "Beef": {
@@ -1562,7 +1595,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 146.83,
                 "emmissions": 28.0
-            }
+            },
+            "country-code": 818
         },
         "El Salvador": {
             "Beef": {
@@ -1608,7 +1642,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 28.19,
                 "emmissions": 5.38
-            }
+            },
+            "country-code": 222
         },
         "Estonia": {
             "Beef": {
@@ -1654,7 +1689,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 89.36,
                 "emmissions": 17.04
-            }
+            },
+            "country-code": 233
         },
         "Ethiopia": {
             "Beef": {
@@ -1700,7 +1736,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 31.259999999999998,
                 "emmissions": 5.96
-            }
+            },
+            "country-code": 231
         },
         "Fiji": {
             "Beef": {
@@ -1746,7 +1783,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 84.22,
                 "emmissions": 16.06
-            }
+            },
+            "country-code": 242
         },
         "Finland": {
             "Beef": {
@@ -1792,7 +1830,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 81.99000000000001,
                 "emmissions": 15.639999999999999
-            }
+            },
+            "country-code": 246
         },
         "France": {
             "Beef": {
@@ -1838,7 +1877,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 108.43,
                 "emmissions": 20.68
-            }
+            },
+            "country-code": 250
         },
         "French Polynesia": {
             "Beef": {
@@ -1884,7 +1924,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 68.66999999999999,
                 "emmissions": 13.1
-            }
+            },
+            "country-code": 258
         },
         "Gambia": {
             "Beef": {
@@ -1930,7 +1971,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 37.91,
                 "emmissions": 7.23
-            }
+            },
+            "country-code": 270
         },
         "Georgia": {
             "Beef": {
@@ -1976,7 +2018,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 163.43,
                 "emmissions": 31.17
-            }
+            },
+            "country-code": 268
         },
         "Germany": {
             "Beef": {
@@ -2022,7 +2065,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 83.41000000000001,
                 "emmissions": 15.91
-            }
+            },
+            "country-code": 276
         },
         "Ghana": {
             "Beef": {
@@ -2068,7 +2112,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 14.450000000000001,
                 "emmissions": 2.7600000000000002
-            }
+            },
+            "country-code": 288
         },
         "Greece": {
             "Beef": {
@@ -2114,7 +2159,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 124.04,
                 "emmissions": 23.650000000000002
-            }
+            },
+            "country-code": 300
         },
         "Grenada": {
             "Beef": {
@@ -2160,7 +2206,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 59.59,
                 "emmissions": 11.360000000000001
-            }
+            },
+            "country-code": 308
         },
         "Guatemala": {
             "Beef": {
@@ -2206,7 +2253,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 35.9,
                 "emmissions": 6.85
-            }
+            },
+            "country-code": 320
         },
         "Guinea": {
             "Beef": {
@@ -2252,7 +2300,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 18.55,
                 "emmissions": 3.54
-            }
+            },
+            "country-code": 324
         },
         "Honduras": {
             "Beef": {
@@ -2298,7 +2347,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 37.36,
                 "emmissions": 7.119999999999999
-            }
+            },
+            "country-code": 340
         },
         "Hong Kong SAR. China": {
             "Beef": {
@@ -2344,7 +2394,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 53.14,
                 "emmissions": 10.129999999999999
-            }
+            },
+            "country-code": 344
         },
         "Hungary": {
             "Beef": {
@@ -2390,7 +2441,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 109.98,
                 "emmissions": 20.97
-            }
+            },
+            "country-code": 348
         },
         "Iceland": {
             "Beef": {
@@ -2436,7 +2488,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 72.92,
                 "emmissions": 13.91
-            }
+            },
+            "country-code": 352
         },
         "India": {
             "Beef": {
@@ -2482,7 +2535,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 60.56,
                 "emmissions": 11.55
-            }
+            },
+            "country-code": 356
         },
         "Indonesia": {
             "Beef": {
@@ -2528,7 +2582,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 25.45,
                 "emmissions": 4.85
-            }
+            },
+            "country-code": 360
         },
         "Iran": {
             "Beef": {
@@ -2574,7 +2629,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 153.31,
                 "emmissions": 29.24
-            }
+            },
+            "country-code": 364
         },
         "Ireland": {
             "Beef": {
@@ -2620,7 +2676,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 107.98,
                 "emmissions": 20.59
-            }
+            },
+            "country-code": 372
         },
         "Israel": {
             "Beef": {
@@ -2666,7 +2723,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 110.86,
                 "emmissions": 21.14
-            }
+            },
+            "country-code": 376
         },
         "Italy": {
             "Beef": {
@@ -2712,7 +2770,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 146.37,
                 "emmissions": 27.91
-            }
+            },
+            "country-code": 380
         },
         "Jamaica": {
             "Beef": {
@@ -2758,7 +2817,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 70.66999999999999,
                 "emmissions": 13.48
-            }
+            },
+            "country-code": 388
         },
         "Japan": {
             "Beef": {
@@ -2804,7 +2864,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 45.04,
                 "emmissions": 8.59
-            }
+            },
+            "country-code": 392
         },
         "Jordan": {
             "Beef": {
@@ -2850,7 +2911,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 136.73999999999998,
                 "emmissions": 26.08
-            }
+            },
+            "country-code": 400
         },
         "Kazakhstan": {
             "Beef": {
@@ -2896,7 +2958,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 92.31,
                 "emmissions": 17.6
-            }
+            },
+            "country-code": 398
         },
         "Kenya": {
             "Beef": {
@@ -2942,7 +3005,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 34.65,
                 "emmissions": 6.609999999999999
-            }
+            },
+            "country-code": 404
         },
         "Kuwait": {
             "Beef": {
@@ -2988,7 +3052,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 96.76,
                 "emmissions": 18.45
-            }
+            },
+            "country-code": 414
         },
         "Latvia": {
             "Beef": {
@@ -3034,7 +3099,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 72.13,
                 "emmissions": 13.76
-            }
+            },
+            "country-code": 428
         },
         "Liberia": {
             "Beef": {
@@ -3080,7 +3146,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 10.950000000000001,
                 "emmissions": 2.09
-            }
+            },
+            "country-code": 430
         },
         "Lithuania": {
             "Beef": {
@@ -3126,7 +3193,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 121.59,
                 "emmissions": 23.19
-            }
+            },
+            "country-code": 440
         },
         "Luxembourg": {
             "Beef": {
@@ -3172,7 +3240,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 103.2,
                 "emmissions": 19.68
-            }
+            },
+            "country-code": 442
         },
         "Macedonia": {
             "Beef": {
@@ -3218,7 +3287,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 104.8,
                 "emmissions": 19.99
-            }
+            },
+            "country-code": 807
         },
         "Madagascar": {
             "Beef": {
@@ -3264,7 +3334,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 9.01,
                 "emmissions": 1.72
-            }
+            },
+            "country-code": 450
         },
         "Malawi": {
             "Beef": {
@@ -3310,7 +3381,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 11.77,
                 "emmissions": 2.24
-            }
+            },
+            "country-code": 454
         },
         "Malaysia": {
             "Beef": {
@@ -3356,7 +3428,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 51.04,
                 "emmissions": 9.729999999999999
-            }
+            },
+            "country-code": 458
         },
         "Maldives": {
             "Beef": {
@@ -3402,7 +3475,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 77.77,
                 "emmissions": 14.83
-            }
+            },
+            "country-code": 462
         },
         "Malta": {
             "Beef": {
@@ -3448,7 +3522,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 139.58,
                 "emmissions": 26.62
-            }
+            },
+            "country-code": 470
         },
         "Mauritius": {
             "Beef": {
@@ -3494,7 +3569,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 114.02,
                 "emmissions": 21.74
-            }
+            },
+            "country-code": 480
         },
         "Mexico": {
             "Beef": {
@@ -3540,7 +3616,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 35.21,
                 "emmissions": 6.71
-            }
+            },
+            "country-code": 484
         },
         "Morocco": {
             "Beef": {
@@ -3586,7 +3663,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 179.7,
                 "emmissions": 34.27
-            }
+            },
+            "country-code": 504
         },
         "Mozambique": {
             "Beef": {
@@ -3632,7 +3710,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 14.65,
                 "emmissions": 2.79
-            }
+            },
+            "country-code": 508
         },
         "Myanmar": {
             "Beef": {
@@ -3678,7 +3757,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 6.22,
                 "emmissions": 1.1900000000000002
-            }
+            },
+            "country-code": 104
         },
         "Namibia": {
             "Beef": {
@@ -3724,7 +3804,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 36.260000000000005,
                 "emmissions": 6.91
-            }
+            },
+            "country-code": 516
         },
         "Nepal": {
             "Beef": {
@@ -3770,7 +3851,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 50.46,
                 "emmissions": 9.62
-            }
+            },
+            "country-code": 524
         },
         "Netherlands": {
             "Beef": {
@@ -3816,7 +3898,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 70.16999999999999,
                 "emmissions": 13.38
-            }
+            },
+            "country-code": 528
         },
         "New Caledonia": {
             "Beef": {
@@ -3862,7 +3945,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 81.75,
                 "emmissions": 15.59
-            }
+            },
+            "country-code": 540
         },
         "New Zealand": {
             "Beef": {
@@ -3908,7 +3992,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 76.91000000000001,
                 "emmissions": 14.67
-            }
+            },
+            "country-code": 554
         },
         "Nicaragua": {
             "Beef": {
@@ -3954,7 +4039,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 28.17,
                 "emmissions": 5.37
-            }
+            },
+            "country-code": 558
         },
         "Niger": {
             "Beef": {
@@ -4000,7 +4086,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 4.79,
                 "emmissions": 0.91
-            }
+            },
+            "country-code": 562
         },
         "Nigeria": {
             "Beef": {
@@ -4046,7 +4133,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 20.82,
                 "emmissions": 3.9699999999999998
-            }
+            },
+            "country-code": 566
         },
         "Norway": {
             "Beef": {
@@ -4092,7 +4180,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 97.11999999999999,
                 "emmissions": 18.52
-            }
+            },
+            "country-code": 578
         },
         "Oman": {
             "Beef": {
@@ -4138,7 +4227,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 64.1,
                 "emmissions": 12.219999999999999
-            }
+            },
+            "country-code": 512
         },
         "Pakistan": {
             "Beef": {
@@ -4184,7 +4274,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 113.63,
                 "emmissions": 21.67
-            }
+            },
+            "country-code": 586
         },
         "Panama": {
             "Beef": {
@@ -4230,7 +4321,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 38.96,
                 "emmissions": 7.430000000000001
-            }
+            },
+            "country-code": 591
         },
         "Paraguay": {
             "Beef": {
@@ -4276,7 +4368,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 31.51,
                 "emmissions": 6.01
-            }
+            },
+            "country-code": 600
         },
         "Peru": {
             "Beef": {
@@ -4322,7 +4415,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 56.120000000000005,
                 "emmissions": 10.7
-            }
+            },
+            "country-code": 604
         },
         "Philippines": {
             "Beef": {
@@ -4368,7 +4462,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 23.12,
                 "emmissions": 4.41
-            }
+            },
+            "country-code": 608
         },
         "Poland": {
             "Beef": {
@@ -4414,7 +4509,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 108.83,
                 "emmissions": 20.75
-            }
+            },
+            "country-code": 616
         },
         "Portugal": {
             "Beef": {
@@ -4460,7 +4556,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 94.3,
                 "emmissions": 17.979999999999997
-            }
+            },
+            "country-code": 620
         },
         "Romania": {
             "Beef": {
@@ -4506,7 +4603,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 134.87,
                 "emmissions": 25.72
-            }
+            },
+            "country-code": 642
         },
         "Russia": {
             "Beef": {
@@ -4552,7 +4650,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 130.99,
                 "emmissions": 24.979999999999997
-            }
+            },
+            "country-code": 643
         },
         "Rwanda": {
             "Beef": {
@@ -4598,7 +4697,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 11.34,
                 "emmissions": 2.16
-            }
+            },
+            "country-code": 646
         },
         "Saudi Arabia": {
             "Beef": {
@@ -4644,7 +4744,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 89.47,
                 "emmissions": 17.06
-            }
+            },
+            "country-code": 682
         },
         "Senegal": {
             "Beef": {
@@ -4690,7 +4791,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 37.32,
                 "emmissions": 7.119999999999999
-            }
+            },
+            "country-code": 686
         },
         "Serbia": {
             "Beef": {
@@ -4736,7 +4838,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 105.88,
                 "emmissions": 20.19
-            }
+            },
+            "country-code": 688
         },
         "Sierra Leone": {
             "Beef": {
@@ -4782,7 +4885,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 8.719999999999999,
                 "emmissions": 1.6600000000000001
-            }
+            },
+            "country-code": 694
         },
         "Slovakia": {
             "Beef": {
@@ -4828,7 +4932,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 123.61999999999999,
                 "emmissions": 23.57
-            }
+            },
+            "country-code": 703
         },
         "Slovenia": {
             "Beef": {
@@ -4874,7 +4979,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 103.43,
                 "emmissions": 19.72
-            }
+            },
+            "country-code": 705
         },
         "South Africa": {
             "Beef": {
@@ -4920,7 +5026,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 60.13,
                 "emmissions": 11.47
-            }
+            },
+            "country-code": 710
         },
         "South Korea": {
             "Beef": {
@@ -4966,7 +5073,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 50.839999999999996,
                 "emmissions": 9.7
-            }
+            },
+            "country-code": 410
         },
         "Spain": {
             "Beef": {
@@ -5012,7 +5120,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 93.88,
                 "emmissions": 17.9
-            }
+            },
+            "country-code": 724
         },
         "Sri Lanka": {
             "Beef": {
@@ -5058,7 +5167,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 37.01,
                 "emmissions": 7.06
-            }
+            },
+            "country-code": 144
         },
         "Swaziland": {
             "Beef": {
@@ -5104,7 +5214,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 37.15,
                 "emmissions": 7.08
-            }
+            },
+            "country-code": 748
         },
         "Sweden": {
             "Beef": {
@@ -5150,7 +5261,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 79.59,
                 "emmissions": 15.18
-            }
+            },
+            "country-code": 752
         },
         "Switzerland": {
             "Beef": {
@@ -5196,7 +5308,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 89.51,
                 "emmissions": 17.07
-            }
+            },
+            "country-code": 756
         },
         "Taiwan. ROC": {
             "Beef": {
@@ -5242,7 +5355,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 50.92,
                 "emmissions": 9.709999999999999
-            }
+            },
+            "country-code": 158
         },
         "Tanzania": {
             "Beef": {
@@ -5288,7 +5402,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 15.94,
                 "emmissions": 3.04
-            }
+            },
+            "country-code": 834
         },
         "Thailand": {
             "Beef": {
@@ -5334,7 +5449,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 10.93,
                 "emmissions": 2.08
-            }
+            },
+            "country-code": 764
         },
         "Togo": {
             "Beef": {
@@ -5380,7 +5496,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 12.91,
                 "emmissions": 2.46
-            }
+            },
+            "country-code": 768
         },
         "Trinidad and Tobago": {
             "Beef": {
@@ -5426,7 +5543,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 90.16999999999999,
                 "emmissions": 17.2
-            }
+            },
+            "country-code": 780
         },
         "Tunisia": {
             "Beef": {
@@ -5472,7 +5590,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 197.5,
                 "emmissions": 37.660000000000004
-            }
+            },
+            "country-code": 788
         },
         "Turkey": {
             "Beef": {
@@ -5518,7 +5637,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 169.96,
                 "emmissions": 32.41
-            }
+            },
+            "country-code": 792
         },
         "USA": {
             "Beef": {
@@ -5564,7 +5684,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 80.43,
                 "emmissions": 15.34
-            }
+            },
+            "country-code": 840
         },
         "Uganda": {
             "Beef": {
@@ -5610,7 +5731,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 10.139999999999999,
                 "emmissions": 1.93
-            }
+            },
+            "country-code": 800
         },
         "Ukraine": {
             "Beef": {
@@ -5656,7 +5778,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 105.14999999999999,
                 "emmissions": 20.05
-            }
+            },
+            "country-code": 804
         },
         "United Arab Emirates": {
             "Beef": {
@@ -5702,7 +5825,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 101.29,
                 "emmissions": 19.32
-            }
+            },
+            "country-code": 784
         },
         "United Kingdom": {
             "Beef": {
@@ -5748,7 +5872,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 98.63,
                 "emmissions": 18.810000000000002
-            }
+            },
+            "country-code": 826
         },
         "Uruguay": {
             "Beef": {
@@ -5794,7 +5919,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 109.31,
                 "emmissions": 20.85
-            }
+            },
+            "country-code": 858
         },
         "Venezuela": {
             "Beef": {
@@ -5840,7 +5966,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 49.17,
                 "emmissions": 9.38
-            }
+            },
+            "country-code": 862
         },
         "Vietnam": {
             "Beef": {
@@ -5886,7 +6013,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 10.49,
                 "emmissions": 2.0
-            }
+            },
+            "country-code": 704
         },
         "Zambia": {
             "Beef": {
@@ -5932,7 +6060,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 12.1,
                 "emmissions": 2.3099999999999996
-            }
+            },
+            "country-code": 894
         },
         "Zimbabwe": {
             "Beef": {
@@ -5978,7 +6107,8 @@
             "Wheat and Wheat Products": {
                 "consumption": 31.310000000000002,
                 "emmissions": 5.970000000000001
-            }
+            },
+            "country-code": 716
         }
     }
 }
