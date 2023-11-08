@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 750,
+  "data": {
+    "url": "data/world-110m.json",
+    "format": {"type": "topojson", "feature": "countries"}
+  },
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ryanjeffares/countries_dataset/main/iso3166.json",
+          "format": {"type": "json", "property": "countries"}
+        },
+        "key": "country-code",
+        "fields": ["name", "region", "sub-region"]
+      }
+    },
+    {
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ryanjeffares/countries_dataset/main/food_consumption.json",
+          "format": {"type": "json", "property": "countries"}
+        },
+        "key": "country-code",
+        "fields": ["Beef", "Eggs", "Fish"]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "black"},
+  "encoding": {
+    "color": {
+      "condition": {"test": "datum.Beef.consumption >= 0"},
+      "value": "lightgray"
+    },
+    "tooltip": [
+      {"field": "name", "type": "nominal"},
+      {"field": "region", "type": "nominal"},
+      {"field": "sub-region", "type": "nominal"}
+    ]
+  }
+}
