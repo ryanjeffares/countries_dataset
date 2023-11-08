@@ -1,6 +1,6 @@
 {
-    "countries": {
-        "Albania": {
+    "countries": [
+        {
             "Beef": {
                 "consumption": 22.5,
                 "emmissions": 694.3
@@ -45,9 +45,10 @@
                 "consumption": 138.64,
                 "emmissions": 26.439999999999998
             },
-            "country-code": 8
+            "country-code": 8,
+            "name": "Albania"
         },
-        "Algeria": {
+        {
             "Beef": {
                 "consumption": 5.6,
                 "emmissions": 172.8
@@ -92,9 +93,10 @@
                 "consumption": 185.42000000000002,
                 "emmissions": 35.36
             },
-            "country-code": 12
+            "country-code": 12,
+            "name": "Algeria"
         },
-        "Angola": {
+        {
             "Beef": {
                 "consumption": 8.42,
                 "emmissions": 259.82
@@ -139,9 +141,10 @@
                 "consumption": 40.720000000000006,
                 "emmissions": 7.7700000000000005
             },
-            "country-code": 24
+            "country-code": 24,
+            "name": "Angola"
         },
-        "Argentina": {
+        {
             "Beef": {
                 "consumption": 55.48,
                 "emmissions": 1712.0
@@ -186,9 +189,10 @@
                 "consumption": 103.11,
                 "emmissions": 19.66
             },
-            "country-code": 32
+            "country-code": 32,
+            "name": "Argentina"
         },
-        "Armenia": {
+        {
             "Beef": {
                 "consumption": 19.66,
                 "emmissions": 606.6700000000001
@@ -233,9 +237,10 @@
                 "consumption": 130.6,
                 "emmissions": 24.91
             },
-            "country-code": 51
+            "country-code": 51,
+            "name": "Armenia"
         },
-        "Australia": {
+        {
             "Beef": {
                 "consumption": 33.86,
                 "emmissions": 1044.85
@@ -280,9 +285,10 @@
                 "consumption": 70.46000000000001,
                 "emmissions": 13.44
             },
-            "country-code": 36
+            "country-code": 36,
+            "name": "Australia"
         },
-        "Austria": {
+        {
             "Beef": {
                 "consumption": 17.14,
                 "emmissions": 528.9
@@ -327,9 +333,10 @@
                 "consumption": 81.1,
                 "emmissions": 15.47
             },
-            "country-code": 40
+            "country-code": 40,
+            "name": "Austria"
         },
-        "Bahamas": {
+        {
             "Beef": {
                 "consumption": 19.919999999999998,
                 "emmissions": 614.69
@@ -374,9 +381,10 @@
                 "consumption": 39.98,
                 "emmissions": 7.619999999999999
             },
-            "country-code": 44
+            "country-code": 44,
+            "name": "Bahamas"
         },
-        "Bangladesh": {
+        {
             "Beef": {
                 "consumption": 1.28,
                 "emmissions": 39.5
@@ -421,9 +429,10 @@
                 "consumption": 17.47,
                 "emmissions": 3.3299999999999996
             },
-            "country-code": 50
+            "country-code": 50,
+            "name": "Bangladesh"
         },
-        "Barbados": {
+        {
             "Beef": {
                 "consumption": 13.129999999999999,
                 "emmissions": 405.16
@@ -468,9 +477,10 @@
                 "consumption": 65.71000000000001,
                 "emmissions": 12.53
             },
-            "country-code": 52
+            "country-code": 52,
+            "name": "Barbados"
         },
-        "Belarus": {
+        {
             "Beef": {
                 "consumption": 17.110000000000003,
                 "emmissions": 527.98
@@ -515,9 +525,10 @@
                 "consumption": 60.48,
                 "emmissions": 11.53
             },
-            "country-code": 112
+            "country-code": 112,
+            "name": "Belarus"
         },
-        "Belgium": {
+        {
             "Beef": {
                 "consumption": 15.629999999999999,
                 "emmissions": 482.31
@@ -562,9 +573,10 @@
                 "consumption": 111.91000000000001,
                 "emmissions": 21.34
             },
-            "country-code": 56
+            "country-code": 56,
+            "name": "Belgium"
         },
-        "Belize": {
+        {
             "Beef": {
                 "consumption": 4.859999999999999,
                 "emmissions": 149.97
@@ -609,9 +621,10 @@
                 "consumption": 54.06,
                 "emmissions": 10.31
             },
-            "country-code": 84
+            "country-code": 84,
+            "name": "Belize"
         },
-        "Bermuda": {
+        {
             "Beef": {
                 "consumption": 33.15,
                 "emmissions": 1022.9399999999999
@@ -656,9 +669,10 @@
                 "consumption": 54.879999999999995,
                 "emmissions": 10.47
             },
-            "country-code": 60
+            "country-code": 60,
+            "name": "Bermuda"
         },
-        "Bolivia": {
+        {
             "Beef": {
                 "consumption": 19.779999999999998,
                 "emmissions": 610.37
@@ -703,9 +717,10 @@
                 "consumption": 49.99,
                 "emmissions": 9.53
             },
+            "name": "Bolivia",
             "country-code": 68
         },
-        "Bosnia and Herzegovina": {
+        {
             "Beef": {
                 "consumption": 9.12,
                 "emmissions": 281.41999999999996
@@ -750,9 +765,10 @@
                 "consumption": 93.56,
                 "emmissions": 17.84
             },
-            "country-code": 70
+            "country-code": 70,
+            "name": "Bosnia and Herzegovina"
         },
-        "Botswana": {
+        {
             "Beef": {
                 "consumption": 7.85,
                 "emmissions": 242.23
@@ -797,9 +813,10 @@
                 "consumption": 38.2,
                 "emmissions": 7.28
             },
-            "country-code": 72
+            "country-code": 72,
+            "name": "Botswana"
         },
-        "Brazil": {
+        {
             "Beef": {
                 "consumption": 39.25,
                 "emmissions": 1211.1699999999998
@@ -844,9 +861,10 @@
                 "consumption": 53.0,
                 "emmissions": 10.11
             },
-            "country-code": 76
+            "country-code": 76,
+            "name": "Brazil"
         },
-        "Bulgaria": {
+        {
             "Beef": {
                 "consumption": 3.84,
                 "emmissions": 118.49000000000001
@@ -891,9 +909,10 @@
                 "consumption": 121.16999999999999,
                 "emmissions": 23.110000000000003
             },
-            "country-code": 100
+            "country-code": 100,
+            "name": "Bulgaria"
         },
-        "Cambodia": {
+        {
             "Beef": {
                 "consumption": 4.85,
                 "emmissions": 149.66
@@ -938,9 +957,10 @@
                 "consumption": 2.74,
                 "emmissions": 0.52
             },
-            "country-code": 116
+            "country-code": 116,
+            "name": "Cambodia"
         },
-        "Cameroon": {
+        {
             "Beef": {
                 "consumption": 4.17,
                 "emmissions": 128.68
@@ -985,9 +1005,10 @@
                 "consumption": 22.6,
                 "emmissions": 4.31
             },
-            "country-code": 120
+            "country-code": 120,
+            "name": "Cameroon"
         },
-        "Canada": {
+        {
             "Beef": {
                 "consumption": 30.25,
                 "emmissions": 933.4499999999999
@@ -1032,9 +1053,10 @@
                 "consumption": 84.96000000000001,
                 "emmissions": 16.2
             },
-            "country-code": 124
+            "country-code": 124,
+            "name": "Canada"
         },
-        "Chile": {
+        {
             "Beef": {
                 "consumption": 23.86,
                 "emmissions": 736.2700000000001
@@ -1079,9 +1101,10 @@
                 "consumption": 104.74000000000001,
                 "emmissions": 19.97
             },
-            "country-code": 152
+            "country-code": 152,
+            "name": "Chile"
         },
-        "China": {
+        {
             "Beef": {
                 "consumption": 5.119999999999999,
                 "emmissions": 157.99
@@ -1126,9 +1149,10 @@
                 "consumption": 63.36,
                 "emmissions": 12.08
             },
-            "country-code": 156
+            "country-code": 156,
+            "name": "China"
         },
-        "Colombia": {
+        {
             "Beef": {
                 "consumption": 16.36,
                 "emmissions": 504.84000000000003
@@ -1173,9 +1197,10 @@
                 "consumption": 29.79,
                 "emmissions": 5.68
             },
-            "country-code": 170
+            "country-code": 170,
+            "name": "Colombia"
         },
-        "Congo": {
+        {
             "Beef": {
                 "consumption": 4.35,
                 "emmissions": 134.23
@@ -1220,9 +1245,10 @@
                 "consumption": 40.07,
                 "emmissions": 7.64
             },
-            "country-code": 178
+            "country-code": 178,
+            "name": "Congo"
         },
-        "Costa Rica": {
+        {
             "Beef": {
                 "consumption": 15.229999999999999,
                 "emmissions": 469.96999999999997
@@ -1267,9 +1293,10 @@
                 "consumption": 39.309999999999995,
                 "emmissions": 7.5
             },
-            "country-code": 188
+            "country-code": 188,
+            "name": "Costa Rica"
         },
-        "Croatia": {
+        {
             "Beef": {
                 "consumption": 12.41,
                 "emmissions": 382.95
@@ -1314,9 +1341,10 @@
                 "consumption": 106.59,
                 "emmissions": 20.330000000000002
             },
-            "country-code": 191
+            "country-code": 191,
+            "name": "Croatia"
         },
-        "Cuba": {
+        {
             "Beef": {
                 "consumption": 6.39,
                 "emmissions": 197.18
@@ -1361,9 +1389,10 @@
                 "consumption": 54.620000000000005,
                 "emmissions": 10.42
             },
-            "country-code": 192
+            "country-code": 192,
+            "name": "Cuba"
         },
-        "Cyprus": {
+        {
             "Beef": {
                 "consumption": 5.79,
                 "emmissions": 178.67
@@ -1408,9 +1437,10 @@
                 "consumption": 83.25,
                 "emmissions": 15.88
             },
-            "country-code": 196
+            "country-code": 196,
+            "name": "Cyprus"
         },
-        "Czech Republic": {
+        {
             "Beef": {
                 "consumption": 8.15,
                 "emmissions": 251.49
@@ -1455,9 +1485,10 @@
                 "consumption": 92.66999999999999,
                 "emmissions": 17.67
             },
+            "name": "Czech Republic",
             "country-code": 203
         },
-        "Denmark": {
+        {
             "Beef": {
                 "consumption": 28.459999999999997,
                 "emmissions": 878.22
@@ -1502,9 +1533,10 @@
                 "consumption": 98.0,
                 "emmissions": 18.69
             },
-            "country-code": 208
+            "country-code": 208,
+            "name": "Denmark"
         },
-        "Ecuador": {
+        {
             "Beef": {
                 "consumption": 16.610000000000003,
                 "emmissions": 512.55
@@ -1549,9 +1581,10 @@
                 "consumption": 39.190000000000005,
                 "emmissions": 7.470000000000001
             },
-            "country-code": 218
+            "country-code": 218,
+            "name": "Ecuador"
         },
-        "Egypt": {
+        {
             "Beef": {
                 "consumption": 12.88,
                 "emmissions": 397.45
@@ -1596,9 +1629,10 @@
                 "consumption": 146.83,
                 "emmissions": 28.0
             },
-            "country-code": 818
+            "country-code": 818,
+            "name": "Egypt"
         },
-        "El Salvador": {
+        {
             "Beef": {
                 "consumption": 5.95,
                 "emmissions": 183.6
@@ -1643,9 +1677,10 @@
                 "consumption": 28.19,
                 "emmissions": 5.38
             },
-            "country-code": 222
+            "country-code": 222,
+            "name": "El Salvador"
         },
-        "Estonia": {
+        {
             "Beef": {
                 "consumption": 7.1899999999999995,
                 "emmissions": 221.87
@@ -1690,9 +1725,10 @@
                 "consumption": 89.36,
                 "emmissions": 17.04
             },
-            "country-code": 233
+            "country-code": 233,
+            "name": "Estonia"
         },
-        "Ethiopia": {
+        {
             "Beef": {
                 "consumption": 3.61,
                 "emmissions": 111.4
@@ -1737,9 +1773,10 @@
                 "consumption": 31.259999999999998,
                 "emmissions": 5.96
             },
-            "country-code": 231
+            "country-code": 231,
+            "name": "Ethiopia"
         },
-        "Fiji": {
+        {
             "Beef": {
                 "consumption": 8.96,
                 "emmissions": 276.48999999999995
@@ -1784,9 +1821,10 @@
                 "consumption": 84.22,
                 "emmissions": 16.06
             },
-            "country-code": 242
+            "country-code": 242,
+            "name": "Fiji"
         },
-        "Finland": {
+        {
             "Beef": {
                 "consumption": 19.22,
                 "emmissions": 593.09
@@ -1831,9 +1869,10 @@
                 "consumption": 81.99000000000001,
                 "emmissions": 15.639999999999999
             },
-            "country-code": 246
+            "country-code": 246,
+            "name": "Finland"
         },
-        "France": {
+        {
             "Beef": {
                 "consumption": 23.810000000000002,
                 "emmissions": 734.73
@@ -1878,9 +1917,10 @@
                 "consumption": 108.43,
                 "emmissions": 20.68
             },
-            "country-code": 250
+            "country-code": 250,
+            "name": "France"
         },
-        "French Polynesia": {
+        {
             "Beef": {
                 "consumption": 30.9,
                 "emmissions": 953.51
@@ -1925,9 +1965,10 @@
                 "consumption": 68.66999999999999,
                 "emmissions": 13.1
             },
-            "country-code": 258
+            "country-code": 258,
+            "name": "French Polynesia"
         },
-        "Gambia": {
+        {
             "Beef": {
                 "consumption": 2.16,
                 "emmissions": 66.64999999999999
@@ -1972,9 +2013,10 @@
                 "consumption": 37.91,
                 "emmissions": 7.23
             },
-            "country-code": 270
+            "country-code": 270,
+            "name": "Gambia"
         },
-        "Georgia": {
+        {
             "Beef": {
                 "consumption": 6.04,
                 "emmissions": 186.38000000000002
@@ -2019,9 +2061,10 @@
                 "consumption": 163.43,
                 "emmissions": 31.17
             },
-            "country-code": 268
+            "country-code": 268,
+            "name": "Georgia"
         },
-        "Germany": {
+        {
             "Beef": {
                 "consumption": 13.16,
                 "emmissions": 406.09
@@ -2066,9 +2109,10 @@
                 "consumption": 83.41000000000001,
                 "emmissions": 15.91
             },
-            "country-code": 276
+            "country-code": 276,
+            "name": "Germany"
         },
-        "Ghana": {
+        {
             "Beef": {
                 "consumption": 1.09,
                 "emmissions": 33.64
@@ -2113,9 +2157,10 @@
                 "consumption": 14.450000000000001,
                 "emmissions": 2.7600000000000002
             },
-            "country-code": 288
+            "country-code": 288,
+            "name": "Ghana"
         },
-        "Greece": {
+        {
             "Beef": {
                 "consumption": 16.1,
                 "emmissions": 496.81
@@ -2160,9 +2205,10 @@
                 "consumption": 124.04,
                 "emmissions": 23.650000000000002
             },
-            "country-code": 300
+            "country-code": 300,
+            "name": "Greece"
         },
-        "Grenada": {
+        {
             "Beef": {
                 "consumption": 3.46,
                 "emmissions": 106.77
@@ -2207,9 +2253,10 @@
                 "consumption": 59.59,
                 "emmissions": 11.360000000000001
             },
-            "country-code": 308
+            "country-code": 308,
+            "name": "Grenada"
         },
-        "Guatemala": {
+        {
             "Beef": {
                 "consumption": 5.6,
                 "emmissions": 172.8
@@ -2254,9 +2301,10 @@
                 "consumption": 35.9,
                 "emmissions": 6.85
             },
-            "country-code": 320
+            "country-code": 320,
+            "name": "Guatemala"
         },
-        "Guinea": {
+        {
             "Beef": {
                 "consumption": 6.26,
                 "emmissions": 193.17
@@ -2301,9 +2349,10 @@
                 "consumption": 18.55,
                 "emmissions": 3.54
             },
-            "country-code": 324
+            "country-code": 324,
+            "name": "Guinea"
         },
-        "Honduras": {
+        {
             "Beef": {
                 "consumption": 7.1899999999999995,
                 "emmissions": 221.87
@@ -2348,9 +2397,10 @@
                 "consumption": 37.36,
                 "emmissions": 7.119999999999999
             },
-            "country-code": 340
+            "country-code": 340,
+            "name": "Honduras"
         },
-        "Hong Kong SAR. China": {
+        {
             "Beef": {
                 "consumption": 25.82,
                 "emmissions": 796.75
@@ -2395,9 +2445,10 @@
                 "consumption": 53.14,
                 "emmissions": 10.129999999999999
             },
+            "name": "Hong Kong SAR. China",
             "country-code": 344
         },
-        "Hungary": {
+        {
             "Beef": {
                 "consumption": 4.96,
                 "emmissions": 153.06
@@ -2442,9 +2493,10 @@
                 "consumption": 109.98,
                 "emmissions": 20.97
             },
-            "country-code": 348
+            "country-code": 348,
+            "name": "Hungary"
         },
-        "Iceland": {
+        {
             "Beef": {
                 "consumption": 13.360000000000001,
                 "emmissions": 412.26
@@ -2489,9 +2541,10 @@
                 "consumption": 72.92,
                 "emmissions": 13.91
             },
-            "country-code": 352
+            "country-code": 352,
+            "name": "Iceland"
         },
-        "India": {
+        {
             "Beef": {
                 "consumption": 0.81,
                 "emmissions": 24.99
@@ -2536,9 +2589,10 @@
                 "consumption": 60.56,
                 "emmissions": 11.55
             },
-            "country-code": 356
+            "country-code": 356,
+            "name": "India"
         },
-        "Indonesia": {
+        {
             "Beef": {
                 "consumption": 2.59,
                 "emmissions": 79.92
@@ -2583,9 +2637,10 @@
                 "consumption": 25.45,
                 "emmissions": 4.85
             },
-            "country-code": 360
+            "country-code": 360,
+            "name": "Indonesia"
         },
-        "Iran": {
+        {
             "Beef": {
                 "consumption": 3.58,
                 "emmissions": 110.47
@@ -2630,9 +2685,10 @@
                 "consumption": 153.31,
                 "emmissions": 29.24
             },
+            "name": "Iran",
             "country-code": 364
         },
-        "Ireland": {
+        {
             "Beef": {
                 "consumption": 22.35,
                 "emmissions": 689.6700000000001
@@ -2677,9 +2733,10 @@
                 "consumption": 107.98,
                 "emmissions": 20.59
             },
-            "country-code": 372
+            "country-code": 372,
+            "name": "Ireland"
         },
-        "Israel": {
+        {
             "Beef": {
                 "consumption": 28.779999999999998,
                 "emmissions": 888.09
@@ -2724,9 +2781,10 @@
                 "consumption": 110.86,
                 "emmissions": 21.14
             },
-            "country-code": 376
+            "country-code": 376,
+            "name": "Israel"
         },
-        "Italy": {
+        {
             "Beef": {
                 "consumption": 18.6,
                 "emmissions": 573.9599999999999
@@ -2771,9 +2829,10 @@
                 "consumption": 146.37,
                 "emmissions": 27.91
             },
-            "country-code": 380
+            "country-code": 380,
+            "name": "Italy"
         },
-        "Jamaica": {
+        {
             "Beef": {
                 "consumption": 3.9699999999999998,
                 "emmissions": 122.51
@@ -2818,9 +2877,10 @@
                 "consumption": 70.66999999999999,
                 "emmissions": 13.48
             },
-            "country-code": 388
+            "country-code": 388,
+            "name": "Jamaica"
         },
-        "Japan": {
+        {
             "Beef": {
                 "consumption": 9.15,
                 "emmissions": 282.35
@@ -2865,9 +2925,10 @@
                 "consumption": 45.04,
                 "emmissions": 8.59
             },
-            "country-code": 392
+            "country-code": 392,
+            "name": "Japan"
         },
-        "Jordan": {
+        {
             "Beef": {
                 "consumption": 5.609999999999999,
                 "emmissions": 173.10999999999999
@@ -2912,9 +2973,10 @@
                 "consumption": 136.73999999999998,
                 "emmissions": 26.08
             },
-            "country-code": 400
+            "country-code": 400,
+            "name": "Jordan"
         },
-        "Kazakhstan": {
+        {
             "Beef": {
                 "consumption": 23.38,
                 "emmissions": 721.4599999999999
@@ -2959,9 +3021,10 @@
                 "consumption": 92.31,
                 "emmissions": 17.6
             },
-            "country-code": 398
+            "country-code": 398,
+            "name": "Kazakhstan"
         },
-        "Kenya": {
+        {
             "Beef": {
                 "consumption": 9.54,
                 "emmissions": 294.38
@@ -3006,9 +3069,10 @@
                 "consumption": 34.65,
                 "emmissions": 6.609999999999999
             },
-            "country-code": 404
+            "country-code": 404,
+            "name": "Kenya"
         },
-        "Kuwait": {
+        {
             "Beef": {
                 "consumption": 13.03,
                 "emmissions": 402.08
@@ -3053,9 +3117,10 @@
                 "consumption": 96.76,
                 "emmissions": 18.45
             },
-            "country-code": 414
+            "country-code": 414,
+            "name": "Kuwait"
         },
-        "Latvia": {
+        {
             "Beef": {
                 "consumption": 5.109999999999999,
                 "emmissions": 157.68
@@ -3100,9 +3165,10 @@
                 "consumption": 72.13,
                 "emmissions": 13.76
             },
-            "country-code": 428
+            "country-code": 428,
+            "name": "Latvia"
         },
-        "Liberia": {
+        {
             "Beef": {
                 "consumption": 0.7799999999999999,
                 "emmissions": 24.07
@@ -3147,9 +3213,10 @@
                 "consumption": 10.950000000000001,
                 "emmissions": 2.09
             },
-            "country-code": 430
+            "country-code": 430,
+            "name": "Liberia"
         },
-        "Lithuania": {
+        {
             "Beef": {
                 "consumption": 4.49,
                 "emmissions": 138.55
@@ -3194,9 +3261,10 @@
                 "consumption": 121.59,
                 "emmissions": 23.19
             },
-            "country-code": 440
+            "country-code": 440,
+            "name": "Lithuania"
         },
-        "Luxembourg": {
+        {
             "Beef": {
                 "consumption": 29.88,
                 "emmissions": 922.03
@@ -3241,9 +3309,10 @@
                 "consumption": 103.2,
                 "emmissions": 19.68
             },
-            "country-code": 442
+            "country-code": 442,
+            "name": "Luxembourg"
         },
-        "Macedonia": {
+        {
             "Beef": {
                 "consumption": 7.6899999999999995,
                 "emmissions": 237.3
@@ -3288,9 +3357,10 @@
                 "consumption": 104.8,
                 "emmissions": 19.99
             },
+            "name": "Macedonia",
             "country-code": 807
         },
-        "Madagascar": {
+        {
             "Beef": {
                 "consumption": 7.51,
                 "emmissions": 231.73999999999998
@@ -3335,9 +3405,10 @@
                 "consumption": 9.01,
                 "emmissions": 1.72
             },
-            "country-code": 450
+            "country-code": 450,
+            "name": "Madagascar"
         },
-        "Malawi": {
+        {
             "Beef": {
                 "consumption": 2.3499999999999996,
                 "emmissions": 72.52
@@ -3382,9 +3453,10 @@
                 "consumption": 11.77,
                 "emmissions": 2.24
             },
-            "country-code": 454
+            "country-code": 454,
+            "name": "Malawi"
         },
-        "Malaysia": {
+        {
             "Beef": {
                 "consumption": 6.52,
                 "emmissions": 201.19
@@ -3429,9 +3501,10 @@
                 "consumption": 51.04,
                 "emmissions": 9.729999999999999
             },
-            "country-code": 458
+            "country-code": 458,
+            "name": "Malaysia"
         },
-        "Maldives": {
+        {
             "Beef": {
                 "consumption": 9.44,
                 "emmissions": 291.3
@@ -3476,9 +3549,10 @@
                 "consumption": 77.77,
                 "emmissions": 14.83
             },
-            "country-code": 462
+            "country-code": 462,
+            "name": "Maldives"
         },
-        "Malta": {
+        {
             "Beef": {
                 "consumption": 19.22,
                 "emmissions": 593.09
@@ -3523,9 +3597,10 @@
                 "consumption": 139.58,
                 "emmissions": 26.62
             },
-            "country-code": 470
+            "country-code": 470,
+            "name": "Malta"
         },
-        "Mauritius": {
+        {
             "Beef": {
                 "consumption": 5.99,
                 "emmissions": 184.84
@@ -3570,9 +3645,10 @@
                 "consumption": 114.02,
                 "emmissions": 21.74
             },
-            "country-code": 480
+            "country-code": 480,
+            "name": "Mauritius"
         },
-        "Mexico": {
+        {
             "Beef": {
                 "consumption": 15.33,
                 "emmissions": 473.05
@@ -3617,9 +3693,10 @@
                 "consumption": 35.21,
                 "emmissions": 6.71
             },
-            "country-code": 484
+            "country-code": 484,
+            "name": "Mexico"
         },
-        "Morocco": {
+        {
             "Beef": {
                 "consumption": 8.04,
                 "emmissions": 248.1
@@ -3664,9 +3741,10 @@
                 "consumption": 179.7,
                 "emmissions": 34.27
             },
-            "country-code": 504
+            "country-code": 504,
+            "name": "Morocco"
         },
-        "Mozambique": {
+        {
             "Beef": {
                 "consumption": 1.04,
                 "emmissions": 32.09
@@ -3711,9 +3789,10 @@
                 "consumption": 14.65,
                 "emmissions": 2.79
             },
-            "country-code": 508
+            "country-code": 508,
+            "name": "Mozambique"
         },
-        "Myanmar": {
+        {
             "Beef": {
                 "consumption": 4.94,
                 "emmissions": 152.44
@@ -3758,9 +3837,10 @@
                 "consumption": 6.22,
                 "emmissions": 1.1900000000000002
             },
-            "country-code": 104
+            "country-code": 104,
+            "name": "Myanmar"
         },
-        "Namibia": {
+        {
             "Beef": {
                 "consumption": 3.75,
                 "emmissions": 115.72
@@ -3805,9 +3885,10 @@
                 "consumption": 36.260000000000005,
                 "emmissions": 6.91
             },
-            "country-code": 516
+            "country-code": 516,
+            "name": "Namibia"
         },
-        "Nepal": {
+        {
             "Beef": {
                 "consumption": 7.89,
                 "emmissions": 243.47
@@ -3852,9 +3933,10 @@
                 "consumption": 50.46,
                 "emmissions": 9.62
             },
-            "country-code": 524
+            "country-code": 524,
+            "name": "Nepal"
         },
-        "Netherlands": {
+        {
             "Beef": {
                 "consumption": 17.67,
                 "emmissions": 545.26
@@ -3899,9 +3981,10 @@
                 "consumption": 70.16999999999999,
                 "emmissions": 13.38
             },
-            "country-code": 528
+            "country-code": 528,
+            "name": "Netherlands"
         },
-        "New Caledonia": {
+        {
             "Beef": {
                 "consumption": 16.07,
                 "emmissions": 495.89
@@ -3946,9 +4029,10 @@
                 "consumption": 81.75,
                 "emmissions": 15.59
             },
-            "country-code": 540
+            "country-code": 540,
+            "name": "New Caledonia"
         },
-        "New Zealand": {
+        {
             "Beef": {
                 "consumption": 22.49,
                 "emmissions": 693.99
@@ -3993,9 +4077,10 @@
                 "consumption": 76.91000000000001,
                 "emmissions": 14.67
             },
-            "country-code": 554
+            "country-code": 554,
+            "name": "New Zealand"
         },
-        "Nicaragua": {
+        {
             "Beef": {
                 "consumption": 4.73,
                 "emmissions": 145.96
@@ -4040,9 +4125,10 @@
                 "consumption": 28.17,
                 "emmissions": 5.37
             },
-            "country-code": 558
+            "country-code": 558,
+            "name": "Nicaragua"
         },
-        "Niger": {
+        {
             "Beef": {
                 "consumption": 8.97,
                 "emmissions": 276.8
@@ -4087,9 +4173,10 @@
                 "consumption": 4.79,
                 "emmissions": 0.91
             },
-            "country-code": 562
+            "country-code": 562,
+            "name": "Niger"
         },
-        "Nigeria": {
+        {
             "Beef": {
                 "consumption": 2.3299999999999996,
                 "emmissions": 71.9
@@ -4134,9 +4221,10 @@
                 "consumption": 20.82,
                 "emmissions": 3.9699999999999998
             },
-            "country-code": 566
+            "country-code": 566,
+            "name": "Nigeria"
         },
-        "Norway": {
+        {
             "Beef": {
                 "consumption": 19.830000000000002,
                 "emmissions": 611.91
@@ -4181,9 +4269,10 @@
                 "consumption": 97.11999999999999,
                 "emmissions": 18.52
             },
-            "country-code": 578
+            "country-code": 578,
+            "name": "Norway"
         },
-        "Oman": {
+        {
             "Beef": {
                 "consumption": 15.1,
                 "emmissions": 465.95
@@ -4228,9 +4317,10 @@
                 "consumption": 64.1,
                 "emmissions": 12.219999999999999
             },
-            "country-code": 512
+            "country-code": 512,
+            "name": "Oman"
         },
-        "Pakistan": {
+        {
             "Beef": {
                 "consumption": 8.82,
                 "emmissions": 272.17
@@ -4275,9 +4365,10 @@
                 "consumption": 113.63,
                 "emmissions": 21.67
             },
-            "country-code": 586
+            "country-code": 586,
+            "name": "Pakistan"
         },
-        "Panama": {
+        {
             "Beef": {
                 "consumption": 20.4,
                 "emmissions": 629.5
@@ -4322,9 +4413,10 @@
                 "consumption": 38.96,
                 "emmissions": 7.430000000000001
             },
-            "country-code": 591
+            "country-code": 591,
+            "name": "Panama"
         },
-        "Paraguay": {
+        {
             "Beef": {
                 "consumption": 19.810000000000002,
                 "emmissions": 611.2900000000001
@@ -4369,9 +4461,10 @@
                 "consumption": 31.51,
                 "emmissions": 6.01
             },
-            "country-code": 600
+            "country-code": 600,
+            "name": "Paraguay"
         },
-        "Peru": {
+        {
             "Beef": {
                 "consumption": 4.6899999999999995,
                 "emmissions": 144.72
@@ -4416,9 +4509,10 @@
                 "consumption": 56.120000000000005,
                 "emmissions": 10.7
             },
-            "country-code": 604
+            "country-code": 604,
+            "name": "Peru"
         },
-        "Philippines": {
+        {
             "Beef": {
                 "consumption": 4.06,
                 "emmissions": 125.28
@@ -4463,9 +4557,10 @@
                 "consumption": 23.12,
                 "emmissions": 4.41
             },
-            "country-code": 608
+            "country-code": 608,
+            "name": "Philippines"
         },
-        "Poland": {
+        {
             "Beef": {
                 "consumption": 2.32,
                 "emmissions": 71.59
@@ -4510,9 +4605,10 @@
                 "consumption": 108.83,
                 "emmissions": 20.75
             },
-            "country-code": 616
+            "country-code": 616,
+            "name": "Poland"
         },
-        "Portugal": {
+        {
             "Beef": {
                 "consumption": 16.45,
                 "emmissions": 507.61
@@ -4557,9 +4653,10 @@
                 "consumption": 94.3,
                 "emmissions": 17.979999999999997
             },
-            "country-code": 620
+            "country-code": 620,
+            "name": "Portugal"
         },
-        "Romania": {
+        {
             "Beef": {
                 "consumption": 4.78,
                 "emmissions": 147.5
@@ -4604,9 +4701,10 @@
                 "consumption": 134.87,
                 "emmissions": 25.72
             },
-            "country-code": 642
+            "country-code": 642,
+            "name": "Romania"
         },
-        "Russia": {
+        {
             "Beef": {
                 "consumption": 16.979999999999997,
                 "emmissions": 523.97
@@ -4651,9 +4749,10 @@
                 "consumption": 130.99,
                 "emmissions": 24.979999999999997
             },
+            "name": "Russia",
             "country-code": 643
         },
-        "Rwanda": {
+        {
             "Beef": {
                 "consumption": 2.53,
                 "emmissions": 78.07
@@ -4698,9 +4797,10 @@
                 "consumption": 11.34,
                 "emmissions": 2.16
             },
-            "country-code": 646
+            "country-code": 646,
+            "name": "Rwanda"
         },
-        "Saudi Arabia": {
+        {
             "Beef": {
                 "consumption": 6.45,
                 "emmissions": 199.03
@@ -4745,9 +4845,10 @@
                 "consumption": 89.47,
                 "emmissions": 17.06
             },
-            "country-code": 682
+            "country-code": 682,
+            "name": "Saudi Arabia"
         },
-        "Senegal": {
+        {
             "Beef": {
                 "consumption": 5.85,
                 "emmissions": 180.52
@@ -4792,9 +4893,10 @@
                 "consumption": 37.32,
                 "emmissions": 7.119999999999999
             },
-            "country-code": 686
+            "country-code": 686,
+            "name": "Senegal"
         },
-        "Serbia": {
+        {
             "Beef": {
                 "consumption": 7.05,
                 "emmissions": 217.55
@@ -4839,9 +4941,10 @@
                 "consumption": 105.88,
                 "emmissions": 20.19
             },
-            "country-code": 688
+            "country-code": 688,
+            "name": "Serbia"
         },
-        "Sierra Leone": {
+        {
             "Beef": {
                 "consumption": 1.99,
                 "emmissions": 61.41
@@ -4886,9 +4989,10 @@
                 "consumption": 8.719999999999999,
                 "emmissions": 1.6600000000000001
             },
-            "country-code": 694
+            "country-code": 694,
+            "name": "Sierra Leone"
         },
-        "Slovakia": {
+        {
             "Beef": {
                 "consumption": 5.1899999999999995,
                 "emmissions": 160.15
@@ -4933,9 +5037,10 @@
                 "consumption": 123.61999999999999,
                 "emmissions": 23.57
             },
-            "country-code": 703
+            "country-code": 703,
+            "name": "Slovakia"
         },
-        "Slovenia": {
+        {
             "Beef": {
                 "consumption": 18.43,
                 "emmissions": 568.71
@@ -4980,9 +5085,10 @@
                 "consumption": 103.43,
                 "emmissions": 19.72
             },
-            "country-code": 705
+            "country-code": 705,
+            "name": "Slovenia"
         },
-        "South Africa": {
+        {
             "Beef": {
                 "consumption": 18.03,
                 "emmissions": 556.37
@@ -5027,9 +5133,10 @@
                 "consumption": 60.13,
                 "emmissions": 11.47
             },
-            "country-code": 710
+            "country-code": 710,
+            "name": "South Africa"
         },
-        "South Korea": {
+        {
             "Beef": {
                 "consumption": 14.53,
                 "emmissions": 448.37
@@ -5074,9 +5181,10 @@
                 "consumption": 50.839999999999996,
                 "emmissions": 9.7
             },
+            "name": "South Korea",
             "country-code": 410
         },
-        "Spain": {
+        {
             "Beef": {
                 "consumption": 12.15,
                 "emmissions": 374.91999999999996
@@ -5121,9 +5229,10 @@
                 "consumption": 93.88,
                 "emmissions": 17.9
             },
-            "country-code": 724
+            "country-code": 724,
+            "name": "Spain"
         },
-        "Sri Lanka": {
+        {
             "Beef": {
                 "consumption": 1.3800000000000001,
                 "emmissions": 42.58
@@ -5168,9 +5277,10 @@
                 "consumption": 37.01,
                 "emmissions": 7.06
             },
-            "country-code": 144
+            "country-code": 144,
+            "name": "Sri Lanka"
         },
-        "Swaziland": {
+        {
             "Beef": {
                 "consumption": 15.1,
                 "emmissions": 465.95
@@ -5215,9 +5325,10 @@
                 "consumption": 37.15,
                 "emmissions": 7.08
             },
+            "name": "Swaziland",
             "country-code": 748
         },
-        "Sweden": {
+        {
             "Beef": {
                 "consumption": 24.58,
                 "emmissions": 758.49
@@ -5262,9 +5373,10 @@
                 "consumption": 79.59,
                 "emmissions": 15.18
             },
-            "country-code": 752
+            "country-code": 752,
+            "name": "Sweden"
         },
-        "Switzerland": {
+        {
             "Beef": {
                 "consumption": 21.259999999999998,
                 "emmissions": 656.04
@@ -5309,9 +5421,10 @@
                 "consumption": 89.51,
                 "emmissions": 17.07
             },
-            "country-code": 756
+            "country-code": 756,
+            "name": "Switzerland"
         },
-        "Taiwan. ROC": {
+        {
             "Beef": {
                 "consumption": 5.21,
                 "emmissions": 160.76999999999998
@@ -5356,9 +5469,10 @@
                 "consumption": 50.92,
                 "emmissions": 9.709999999999999
             },
+            "name": "Taiwan. ROC",
             "country-code": 158
         },
-        "Tanzania": {
+        {
             "Beef": {
                 "consumption": 6.09,
                 "emmissions": 187.92000000000002
@@ -5403,9 +5517,10 @@
                 "consumption": 15.94,
                 "emmissions": 3.04
             },
+            "name": "Tanzania",
             "country-code": 834
         },
-        "Thailand": {
+        {
             "Beef": {
                 "consumption": 2.56,
                 "emmissions": 79.0
@@ -5450,9 +5565,10 @@
                 "consumption": 10.93,
                 "emmissions": 2.08
             },
-            "country-code": 764
+            "country-code": 764,
+            "name": "Thailand"
         },
-        "Togo": {
+        {
             "Beef": {
                 "consumption": 1.53,
                 "emmissions": 47.21
@@ -5497,9 +5613,10 @@
                 "consumption": 12.91,
                 "emmissions": 2.46
             },
-            "country-code": 768
+            "country-code": 768,
+            "name": "Togo"
         },
-        "Trinidad and Tobago": {
+        {
             "Beef": {
                 "consumption": 6.13,
                 "emmissions": 189.16
@@ -5544,9 +5661,10 @@
                 "consumption": 90.16999999999999,
                 "emmissions": 17.2
             },
-            "country-code": 780
+            "country-code": 780,
+            "name": "Trinidad and Tobago"
         },
-        "Tunisia": {
+        {
             "Beef": {
                 "consumption": 5.53,
                 "emmissions": 170.64
@@ -5591,9 +5709,10 @@
                 "consumption": 197.5,
                 "emmissions": 37.660000000000004
             },
-            "country-code": 788
+            "country-code": 788,
+            "name": "Tunisia"
         },
-        "Turkey": {
+        {
             "Beef": {
                 "consumption": 11.639999999999999,
                 "emmissions": 359.19
@@ -5638,9 +5757,10 @@
                 "consumption": 169.96,
                 "emmissions": 32.41
             },
-            "country-code": 792
+            "country-code": 792,
+            "name": "Turkey"
         },
-        "USA": {
+        {
             "Beef": {
                 "consumption": 36.24,
                 "emmissions": 1118.29
@@ -5685,9 +5805,10 @@
                 "consumption": 80.43,
                 "emmissions": 15.34
             },
+            "name": "USA",
             "country-code": 840
         },
-        "Uganda": {
+        {
             "Beef": {
                 "consumption": 5.1499999999999995,
                 "emmissions": 158.92000000000002
@@ -5732,9 +5853,10 @@
                 "consumption": 10.139999999999999,
                 "emmissions": 1.93
             },
-            "country-code": 800
+            "country-code": 800,
+            "name": "Uganda"
         },
-        "Ukraine": {
+        {
             "Beef": {
                 "consumption": 8.96,
                 "emmissions": 276.48999999999995
@@ -5779,9 +5901,10 @@
                 "consumption": 105.14999999999999,
                 "emmissions": 20.05
             },
-            "country-code": 804
+            "country-code": 804,
+            "name": "Ukraine"
         },
-        "United Arab Emirates": {
+        {
             "Beef": {
                 "consumption": 5.64,
                 "emmissions": 174.04
@@ -5826,9 +5949,10 @@
                 "consumption": 101.29,
                 "emmissions": 19.32
             },
-            "country-code": 784
+            "country-code": 784,
+            "name": "United Arab Emirates"
         },
-        "United Kingdom": {
+        {
             "Beef": {
                 "consumption": 18.12,
                 "emmissions": 559.15
@@ -5873,9 +5997,10 @@
                 "consumption": 98.63,
                 "emmissions": 18.810000000000002
             },
+            "name": "United Kingdom",
             "country-code": 826
         },
-        "Uruguay": {
+        {
             "Beef": {
                 "consumption": 29.1,
                 "emmissions": 897.9599999999999
@@ -5920,9 +6045,10 @@
                 "consumption": 109.31,
                 "emmissions": 20.85
             },
-            "country-code": 858
+            "country-code": 858,
+            "name": "Uruguay"
         },
-        "Venezuela": {
+        {
             "Beef": {
                 "consumption": 25.89,
                 "emmissions": 798.91
@@ -5967,9 +6093,10 @@
                 "consumption": 49.17,
                 "emmissions": 9.38
             },
+            "name": "Venezuela",
             "country-code": 862
         },
-        "Vietnam": {
+        {
             "Beef": {
                 "consumption": 7.44,
                 "emmissions": 229.58
@@ -6014,9 +6141,10 @@
                 "consumption": 10.49,
                 "emmissions": 2.0
             },
+            "name": "Vietnam",
             "country-code": 704
         },
-        "Zambia": {
+        {
             "Beef": {
                 "consumption": 4.76,
                 "emmissions": 146.88000000000002
@@ -6061,9 +6189,10 @@
                 "consumption": 12.1,
                 "emmissions": 2.3099999999999996
             },
-            "country-code": 894
+            "country-code": 894,
+            "name": "Zambia"
         },
-        "Zimbabwe": {
+        {
             "Beef": {
                 "consumption": 7.37,
                 "emmissions": 227.42000000000002
@@ -6108,7 +6237,8 @@
                 "consumption": 31.310000000000002,
                 "emmissions": 5.970000000000001
             },
-            "country-code": 716
+            "country-code": 716,
+            "name": "Zimbabwe"
         }
-    }
+    ]
 }
