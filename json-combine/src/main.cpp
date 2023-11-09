@@ -1,16 +1,20 @@
-#include <fmt/core.h>
-
 #include <nlohmann/json.hpp>
 
 #include <filesystem>
 #include <fstream>
+#include <iostream>
 
-int main()
+int main(int argc, const char* argv[])
 {
+  if (argc != 2) {
+    std::cerr << "json-combine <iso3166-json-path>\n";
+    return 1;
+  }
+
   namespace fs = std::filesystem;
   using namespace nlohmann;
 
-  fs::path iso3166DataPath = "/Users/ryanjeffares/Documents/masters/COMP40610/Assignment 2/dataset/countries_dataset/iso3166.json";
+  fs::path iso3166DataPath = argv[1];
 
   json outJson, iso3166Json;
   outJson["countries"] = nlohmann::json::array();
@@ -24,6 +28,6 @@ int main()
     outJson["countries"].push_back(data);
   }
   
-  std::ofstream outStream{"/Users/ryanjeffares/Documents/masters/COMP40610/Assignment 2/dataset/countries_dataset/iso3166.json", std::ios::out | std::ios::trunc};
+  std::ofstream outStream{argv[1], std::ios::out | std::ios::trunc};
   outStream << std::setw(4) << outJson;
 }

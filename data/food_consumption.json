@@ -717,8 +717,7 @@
                 "consumption": 49.99,
                 "emmissions": 9.53
             },
-            "name": "Bolivia",
-            "country-code": 68
+            "name": "Bolivia"
         },
         {
             "Beef": {
@@ -1485,8 +1484,7 @@
                 "consumption": 92.66999999999999,
                 "emmissions": 17.67
             },
-            "name": "Czech Republic",
-            "country-code": 203
+            "name": "Czech Republic"
         },
         {
             "Beef": {
@@ -2445,8 +2443,7 @@
                 "consumption": 53.14,
                 "emmissions": 10.129999999999999
             },
-            "name": "Hong Kong SAR. China",
-            "country-code": 344
+            "name": "Hong Kong SAR. China"
         },
         {
             "Beef": {
@@ -2685,8 +2682,7 @@
                 "consumption": 153.31,
                 "emmissions": 29.24
             },
-            "name": "Iran",
-            "country-code": 364
+            "name": "Iran"
         },
         {
             "Beef": {
@@ -3357,8 +3353,7 @@
                 "consumption": 104.8,
                 "emmissions": 19.99
             },
-            "name": "Macedonia",
-            "country-code": 807
+            "name": "Macedonia"
         },
         {
             "Beef": {
@@ -4749,8 +4744,7 @@
                 "consumption": 130.99,
                 "emmissions": 24.979999999999997
             },
-            "name": "Russia",
-            "country-code": 643
+            "name": "Russia"
         },
         {
             "Beef": {
@@ -5181,8 +5175,7 @@
                 "consumption": 50.839999999999996,
                 "emmissions": 9.7
             },
-            "name": "South Korea",
-            "country-code": 410
+            "name": "South Korea"
         },
         {
             "Beef": {
@@ -5325,8 +5318,7 @@
                 "consumption": 37.15,
                 "emmissions": 7.08
             },
-            "name": "Swaziland",
-            "country-code": 748
+            "name": "Swaziland"
         },
         {
             "Beef": {
@@ -5469,8 +5461,7 @@
                 "consumption": 50.92,
                 "emmissions": 9.709999999999999
             },
-            "name": "Taiwan. ROC",
-            "country-code": 158
+            "name": "Taiwan. ROC"
         },
         {
             "Beef": {
@@ -5517,8 +5508,7 @@
                 "consumption": 15.94,
                 "emmissions": 3.04
             },
-            "name": "Tanzania",
-            "country-code": 834
+            "name": "Tanzania"
         },
         {
             "Beef": {
@@ -5805,8 +5795,7 @@
                 "consumption": 80.43,
                 "emmissions": 15.34
             },
-            "name": "USA",
-            "country-code": 840
+            "name": "USA"
         },
         {
             "Beef": {
@@ -5997,8 +5986,7 @@
                 "consumption": 98.63,
                 "emmissions": 18.810000000000002
             },
-            "name": "United Kingdom",
-            "country-code": 826
+            "name": "United Kingdom"
         },
         {
             "Beef": {
@@ -6093,8 +6081,7 @@
                 "consumption": 49.17,
                 "emmissions": 9.38
             },
-            "name": "Venezuela",
-            "country-code": 862
+            "name": "Venezuela"
         },
         {
             "Beef": {
@@ -6141,8 +6128,7 @@
                 "consumption": 10.49,
                 "emmissions": 2.0
             },
-            "name": "Vietnam",
-            "country-code": 704
+            "name": "Vietnam"
         },
         {
             "Beef": {

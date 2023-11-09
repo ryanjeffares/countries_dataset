@@ -32,7 +32,8 @@
 *.app
 
 # Generated Folders
-build/**/*
-.cache/**/*
-.vscode/**/*
+**/build/**/*
+**/.idea/**/*
+**/.cache/**/*
+**/.vscode/**/*
 **/*.DS_Store

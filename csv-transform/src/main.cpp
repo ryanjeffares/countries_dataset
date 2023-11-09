@@ -5,16 +5,21 @@
 #include <filesystem>
 #include <iostream>
 
-int main()
+int main(int argc, const char* argv[])
 {
+  if (argc != 4) {
+    std::cerr << "csv-transform <csv-path> <countries-json-path> <output-json-path>\n";
+    return 1;
+  }
+
   namespace fs = std::filesystem;
 
-  fs::path csvPath = "/Users/ryanjeffares/Documents/masters/COMP40610/Assignment 2/dataset/csv-transform/food_consumption.csv";
+  fs::path csvPath = argv[1];
   rapidcsv::Document csvDoc{csvPath, rapidcsv::LabelParams{0, 0}};
 
   nlohmann::json outJson, countriesJson;
 
-  countriesJson = nlohmann::json::parse(std::ifstream{"/Users/ryanjeffares/Documents/masters/COMP40610/Assignment 2/dataset/countries_dataset/iso3166.json"});
+  countriesJson = nlohmann::json::parse(std::ifstream{argv[2]});
   const auto& countriesData = countriesJson["countries"];
 
   outJson["countries"] = nlohmann::json();
@@ -53,6 +58,6 @@ int main()
     finalJson["countries"].push_back(countryData);
   }
 
-  std::ofstream outStream{"/Users/ryanjeffares/Documents/masters/COMP40610/Assignment 2/dataset/csv-transform/food_consumption.json"};
+  std::ofstream outStream{argv[3]};
   outStream << std::setw(4) << finalJson;
 }
