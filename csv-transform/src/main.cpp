@@ -68,7 +68,7 @@ int main(int argc, const char* argv[])
     const auto emissions = std::stod(row[2]);
 
     auto& country = countries[countryName];
-    auto& values = country[category];
+    auto& values = country["categories"][category];
 
     values["consumption"] = consumption;
     values["emissions"] = emissions;
@@ -92,7 +92,7 @@ int main(int argc, const char* argv[])
       auto countryData = std::find_if(countriesData.begin(), countriesData.end(),
         [&countryName] (const auto& data) {
           return data["name"] == countryName; 
-        });  
+        });
       countries[countryName]["country-code"] = (*countryData)["country-code"];
       countries[countryName]["region"] = (*countryData)["region"];
       countries[countryName]["sub-region"] = (*countryData)["sub-region"];
