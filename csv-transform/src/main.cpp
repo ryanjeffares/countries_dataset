@@ -13,6 +13,30 @@ static const std::map<std::string, std::string> s_cleanedCategoryNames = {
   {"Wheat and Wheat Products", "Wheat"},
 };
 
+struct CountryData
+{
+  int countryCode;
+  std::string region;
+  std::string subRegion;
+};
+
+static const std::map<std::string, CountryData> s_errorCountryCodes = {
+  {"USA", { 840, "Americas", "Northern America" }},
+  {"Hong Kong SAR. China", { 344, "Asia", "Eastern Asia" }},
+  {"United Kingdom", { 826, "Europe", "Northern Europe" }},
+  {"Venezuela", { 862, "Americas", "Latin America and the Caribbean" }},
+  {"Russia", { 643, "Europe", "Eastern Europe" }},
+  {"Bolivia", { 68, "Americas", "Latin America and the Caribbean" }},
+  {"Czech Republic", { 203, "Europe", "Eastern Europe" }},
+  {"Swaziland", { 748, "Africa", "Sub-Saharan Africa" }},
+  {"South Korea", { 410, "Asia", "Eastern Asia" }},
+  {"Macedonia", { 807, "Europe", "Southern Europe" }},
+  {"Taiwan. ROC", { 158, "Asia", "Eastern Asia" }},
+  {"Iran", { 364, "Asia", "Southern Asia" }},
+  {"Tanzania", { 834, "Africa", "Sub-Saharan Africa" }},
+  {"Vietnam", { 704, "Asia", "South-eastern Asia" }},
+};
+
 int main(int argc, const char* argv[])
 {
   if (argc != 4) {
@@ -60,45 +84,18 @@ int main(int argc, const char* argv[])
     country["total_consumption"] = country["total_consumption"].get<double>() + consumption;
     country["total_emissions"] = country["total_emissions"].get<double>() + emissions;
 
-    auto countryData = std::find_if(countriesData.begin(), countriesData.end(),
+    if (s_errorCountryCodes.contains(countryName)) {
+      countries[countryName]["country-code"] = s_errorCountryCodes.at(countryName).countryCode;
+      countries[countryName]["region"] = s_errorCountryCodes.at(countryName).region;
+      countries[countryName]["sub-region"] = s_errorCountryCodes.at(countryName).subRegion;
+    } else {
+      auto countryData = std::find_if(countriesData.begin(), countriesData.end(),
         [&countryName] (const auto& data) {
           return data["name"] == countryName; 
-        });
-
-    if (countryData == countriesData.end()) {
-      if (countryName == "USA") {
-        countries[countryName]["country-code"] = 840;
-      } else if (countryName == "Hong Kong SAR. China") {
-        countries[countryName]["country-code"] = 344;
-      } else if (countryName == "United Kingdom") {
-        countries[countryName]["country-code"] = 826;
-      } else if (countryName == "Venezuela") {
-        countries[countryName]["country-code"] = 862;
-      } else if (countryName == "Russia") {
-        countries[countryName]["country-code"] = 643;
-      } else if (countryName == "Bolivia") {
-        countries[countryName]["country-code"] = 68;
-      } else if (countryName == "Czech Republic") {
-        countries[countryName]["country-code"] = 203;
-      } else if (countryName == "Swaziland") {
-        countries[countryName]["country-code"] = 748;
-      } else if (countryName == "South Korea") {
-        countries[countryName]["country-code"] = 410;
-      } else if (countryName == "Macedonia") {
-        countries[countryName]["country-code"] = 807;
-      } else if (countryName == "Taiwan. ROC") {
-        countries[countryName]["country-code"] = 158;
-      } else if (countryName == "Iran") {
-        countries[countryName]["country-code"] = 364;
-      } else if (countryName == "Tanzania") {
-        countries[countryName]["country-code"] = 834;
-      } else if (countryName == "Vietnam") {
-        countries[countryName]["country-code"] = 704;
-      } else {
-        std::cerr << "Couldn't find country code for " << countryName << std::endl;
-      }
-    } else {
+        });  
       countries[countryName]["country-code"] = (*countryData)["country-code"];
+      countries[countryName]["region"] = (*countryData)["region"];
+      countries[countryName]["sub-region"] = (*countryData)["sub-region"];
     }
   }
 

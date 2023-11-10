@@ -47,6 +47,8 @@
             },
             "country-code": 8,
             "name": "Albania",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 532.7299999999999,
             "total_emissions": 1777.8500000000001
         },
@@ -97,6 +99,8 @@
             },
             "country-code": 12,
             "name": "Algeria",
+            "region": "Africa",
+            "sub-region": "Northern Africa",
             "total_consumption": 364.51000000000005,
             "total_emissions": 707.88
         },
@@ -147,6 +151,8 @@
             },
             "country-code": 24,
             "name": "Angola",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 115.99000000000001,
             "total_emissions": 412.9899999999999
         },
@@ -197,6 +203,8 @@
             },
             "country-code": 32,
             "name": "Argentina",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 429.41,
             "total_emissions": 2172.3999999999996
         },
@@ -247,6 +255,8 @@
             },
             "country-code": 51,
             "name": "Armenia",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 407.11,
             "total_emissions": 1109.93
         },
@@ -297,6 +307,8 @@
             },
             "country-code": 36,
             "name": "Australia",
+            "region": "Oceania",
+            "sub-region": "Australia and New Zealand",
             "total_consumption": 465.09,
             "total_emissions": 1938.6599999999999
         },
@@ -347,6 +359,8 @@
             },
             "country-code": 40,
             "name": "Austria",
+            "region": "Europe",
+            "sub-region": "Western Europe",
             "total_consumption": 469.14,
             "total_emissions": 1211.16
         },
@@ -397,6 +411,8 @@
             },
             "country-code": 44,
             "name": "Bahamas",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 301.45,
             "total_emissions": 1192.9
         },
@@ -447,6 +463,8 @@
             },
             "country-code": 50,
             "name": "Bangladesh",
+            "region": "Asia",
+            "sub-region": "Southern Asia",
             "total_consumption": 236.6,
             "total_emissions": 374.17999999999995
         },
@@ -497,6 +515,8 @@
             },
             "country-code": 52,
             "name": "Barbados",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 311.2600000000001,
             "total_emissions": 889.11
         },
@@ -547,6 +567,8 @@
             },
             "country-code": 112,
             "name": "Belarus",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 321.53000000000003,
             "total_emissions": 960.22
         },
@@ -597,6 +619,8 @@
             },
             "country-code": 56,
             "name": "Belgium",
+            "region": "Europe",
+            "sub-region": "Western Europe",
             "total_consumption": 463.46,
             "total_emissions": 1102.09
         },
@@ -647,6 +671,8 @@
             },
             "country-code": 84,
             "name": "Belize",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 232.76999999999998,
             "total_emissions": 433.08
         },
@@ -697,6 +723,8 @@
             },
             "country-code": 60,
             "name": "Bermuda",
+            "region": "Americas",
+            "sub-region": "Northern America",
             "total_consumption": 306.62,
             "total_emissions": 1483.28
         },
@@ -747,6 +775,8 @@
             },
             "country-code": 68,
             "name": "Bolivia",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 204.25,
             "total_emissions": 873.0300000000001
         },
@@ -797,6 +827,8 @@
             },
             "country-code": 70,
             "name": "Bosnia and Herzegovina",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 313.64,
             "total_emissions": 628.18
         },
@@ -847,6 +879,8 @@
             },
             "country-code": 72,
             "name": "Botswana",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 188.85000000000002,
             "total_emissions": 576.8399999999999
         },
@@ -897,6 +931,8 @@
             },
             "country-code": 76,
             "name": "Brazil",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 355.16,
             "total_emissions": 1616.73
         },
@@ -947,6 +983,8 @@
             },
             "country-code": 100,
             "name": "Bulgaria",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 348.43,
             "total_emissions": 560.16
         },
@@ -997,6 +1035,8 @@
             },
             "country-code": 116,
             "name": "Cambodia",
+            "region": "Asia",
+            "sub-region": "South-eastern Asia",
             "total_consumption": 225.06,
             "total_emissions": 452.40999999999997
         },
@@ -1047,6 +1087,8 @@
             },
             "country-code": 120,
             "name": "Cameroon",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 97.09,
             "total_emissions": 283.61
         },
@@ -1097,6 +1139,8 @@
             },
             "country-code": 124,
             "name": "Canada",
+            "region": "Americas",
+            "sub-region": "Northern America",
             "total_consumption": 412.55,
             "total_emissions": 1437.1600000000003
         },
@@ -1147,6 +1191,8 @@
             },
             "country-code": 152,
             "name": "Chile",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 335.0600000000001,
             "total_emissions": 1099.5700000000002
         },
@@ -1197,6 +1243,8 @@
             },
             "country-code": 156,
             "name": "China",
+            "region": "Asia",
+            "sub-region": "Eastern Asia",
             "total_consumption": 283.90000000000003,
             "total_emissions": 640.19
         },
@@ -1247,6 +1295,8 @@
             },
             "country-code": 170,
             "name": "Colombia",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 235.02999999999997,
             "total_emissions": 781.53
         },
@@ -1297,6 +1347,8 @@
             },
             "country-code": 178,
             "name": "Congo",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 117.33,
             "total_emissions": 262.55
         },
@@ -1347,6 +1399,8 @@
             },
             "country-code": 188,
             "name": "Costa Rica",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 343.07,
             "total_emissions": 891.2700000000002
         },
@@ -1397,6 +1451,8 @@
             },
             "country-code": 191,
             "name": "Croatia",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 433.87,
             "total_emissions": 996.15
         },
@@ -1447,6 +1503,8 @@
             },
             "country-code": 192,
             "name": "Cuba",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 291.01,
             "total_emissions": 591.69
         },
@@ -1497,6 +1555,8 @@
             },
             "country-code": 196,
             "name": "Cyprus",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 303.65000000000003,
             "total_emissions": 741.37
         },
@@ -1547,6 +1607,8 @@
             },
             "country-code": 203,
             "name": "Czech Republic",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 384.61,
             "total_emissions": 760.09
         },
@@ -1597,6 +1659,8 @@
             },
             "country-code": 208,
             "name": "Denmark",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 499.06999999999994,
             "total_emissions": 1498.1799999999998
         },
@@ -1647,6 +1711,8 @@
             },
             "country-code": 218,
             "name": "Ecuador",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 291.36,
             "total_emissions": 883.88
         },
@@ -1697,6 +1763,8 @@
             },
             "country-code": 818,
             "name": "Egypt",
+            "region": "Africa",
+            "sub-region": "Northern Africa",
             "total_consumption": 303.47999999999996,
             "total_emissions": 673.92
         },
@@ -1747,6 +1815,8 @@
             },
             "country-code": 222,
             "name": "El Salvador",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 209.76,
             "total_emissions": 434.04
         },
@@ -1797,6 +1867,8 @@
             },
             "country-code": 233,
             "name": "Estonia",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 464.9600000000001,
             "total_emissions": 830.72
         },
@@ -1847,6 +1919,8 @@
             },
             "country-code": 231,
             "name": "Ethiopia",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 85.77,
             "total_emissions": 241.92
         },
@@ -1897,6 +1971,8 @@
             },
             "country-code": 242,
             "name": "Fiji",
+            "region": "Oceania",
+            "sub-region": "Melanesia",
             "total_consumption": 252.52000000000004,
             "total_emissions": 716.0899999999997
         },
@@ -1947,6 +2023,8 @@
             },
             "country-code": 246,
             "name": "Finland",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 639.79,
             "total_emissions": 1464.63
         },
@@ -1997,6 +2075,8 @@
             },
             "country-code": 250,
             "name": "France",
+            "region": "Europe",
+            "sub-region": "Western Europe",
             "total_consumption": 479.16999999999996,
             "total_emissions": 1420.05
         },
@@ -2047,6 +2127,8 @@
             },
             "country-code": 258,
             "name": "French Polynesia",
+            "region": "Oceania",
+            "sub-region": "Polynesia",
             "total_consumption": 346.6599999999999,
             "total_emissions": 1424.6899999999998
         },
@@ -2097,6 +2179,8 @@
             },
             "country-code": 270,
             "name": "Gambia",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 180.56,
             "total_emissions": 293.65999999999997
         },
@@ -2147,6 +2231,8 @@
             },
             "country-code": 268,
             "name": "Georgia",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 362.22,
             "total_emissions": 527.03
         },
@@ -2197,6 +2283,8 @@
             },
             "country-code": 276,
             "name": "Germany",
+            "region": "Europe",
+            "sub-region": "Western Europe",
             "total_consumption": 461.09999999999997,
             "total_emissions": 1066.29
         },
@@ -2247,6 +2335,8 @@
             },
             "country-code": 288,
             "name": "Ghana",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 101.21000000000001,
             "total_emissions": 217.87000000000003
         },
@@ -2297,6 +2387,8 @@
             },
             "country-code": 300,
             "name": "Greece",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 493.63,
             "total_emissions": 1497.2899999999997
         },
@@ -2347,6 +2439,8 @@
             },
             "country-code": 308,
             "name": "Grenada",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 254.25,
             "total_emissions": 439.8500000000001
         },
@@ -2397,6 +2491,8 @@
             },
             "country-code": 320,
             "name": "Guatemala",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 133.29999999999998,
             "total_emissions": 314.9800000000001
         },
@@ -2447,6 +2543,8 @@
             },
             "country-code": 324,
             "name": "Guinea",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 161.40999999999997,
             "total_emissions": 432.71
         },
@@ -2497,6 +2595,8 @@
             },
             "country-code": 340,
             "name": "Honduras",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 185.75999999999996,
             "total_emissions": 434.0799999999999
         },
@@ -2547,6 +2647,8 @@
             },
             "country-code": 344,
             "name": "Hong Kong SAR. China",
+            "region": "Asia",
+            "sub-region": "Eastern Asia",
             "total_consumption": 426.02,
             "total_emissions": 1494.2800000000002
         },
@@ -2597,6 +2699,8 @@
             },
             "country-code": 348,
             "name": "Hungary",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 352.98999999999995,
             "total_emissions": 576.7900000000001
         },
@@ -2647,6 +2751,8 @@
             },
             "country-code": 352,
             "name": "Iceland",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 472.31000000000006,
             "total_emissions": 1731.36
         },
@@ -2697,6 +2803,8 @@
             },
             "country-code": 356,
             "name": "India",
+            "region": "Asia",
+            "sub-region": "Southern Asia",
             "total_consumption": 227.7,
             "total_emissions": 282.62
         },
@@ -2747,6 +2855,8 @@
             },
             "country-code": 360,
             "name": "Indonesia",
+            "region": "Asia",
+            "sub-region": "South-eastern Asia",
             "total_consumption": 224.99,
             "total_emissions": 367.50999999999993
         },
@@ -2797,6 +2907,8 @@
             },
             "country-code": 364,
             "name": "Iran",
+            "region": "Asia",
+            "sub-region": "Southern Asia",
             "total_consumption": 292.26000000000005,
             "total_emissions": 445.2699999999999
         },
@@ -2847,6 +2959,8 @@
             },
             "country-code": 372,
             "name": "Ireland",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 518.65,
             "total_emissions": 1459.6699999999998
         },
@@ -2897,6 +3011,8 @@
             },
             "country-code": 376,
             "name": "Israel",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 457.75,
             "total_emissions": 1405.7100000000003
         },
@@ -2947,6 +3063,8 @@
             },
             "country-code": 380,
             "name": "Italy",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 513.98,
             "total_emissions": 1206.33
         },
@@ -2997,6 +3115,8 @@
             },
             "country-code": 388,
             "name": "Jamaica",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 273.02,
             "total_emissions": 450.83000000000004
         },
@@ -3047,6 +3167,8 @@
             },
             "country-code": 392,
             "name": "Japan",
+            "region": "Asia",
+            "sub-region": "Eastern Asia",
             "total_consumption": 286.4599999999999,
             "total_emissions": 644.0400000000001
         },
@@ -3097,6 +3219,8 @@
             },
             "country-code": 400,
             "name": "Jordan",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 291.41999999999996,
             "total_emissions": 587.9599999999999
         },
@@ -3147,6 +3271,8 @@
             },
             "country-code": 398,
             "name": "Kazakhstan",
+            "region": "Asia",
+            "sub-region": "Central Asia",
             "total_consumption": 468.09999999999997,
             "total_emissions": 1575.0799999999992
         },
@@ -3197,6 +3323,8 @@
             },
             "country-code": 404,
             "name": "Kenya",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 162.55999999999997,
             "total_emissions": 530.8399999999999
         },
@@ -3247,6 +3375,8 @@
             },
             "country-code": 414,
             "name": "Kuwait",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 410.38,
             "total_emissions": 1345.4399999999998
         },
@@ -3297,6 +3427,8 @@
             },
             "country-code": 428,
             "name": "Latvia",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 348.53999999999996,
             "total_emissions": 633.58
         },
@@ -3347,6 +3479,8 @@
             },
             "country-code": 430,
             "name": "Liberia",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 131.04,
             "total_emissions": 203.38
         },
@@ -3397,6 +3531,8 @@
             },
             "country-code": 440,
             "name": "Lithuania",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 555.01,
             "total_emissions": 868.9
         },
@@ -3447,6 +3583,8 @@
             },
             "country-code": 442,
             "name": "Luxembourg",
+            "region": "Europe",
+            "sub-region": "Western Europe",
             "total_consumption": 497.9,
             "total_emissions": 1598.41
         },
@@ -3497,6 +3635,8 @@
             },
             "country-code": 807,
             "name": "Macedonia",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 321.46999999999997,
             "total_emissions": 600.7500000000001
         },
@@ -3547,6 +3687,8 @@
             },
             "country-code": 450,
             "name": "Madagascar",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 155.63,
             "total_emissions": 440.75
         },
@@ -3597,6 +3739,8 @@
             },
             "country-code": 454,
             "name": "Malawi",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 50.99999999999999,
             "total_emissions": 207.94000000000003
         },
@@ -3647,6 +3791,8 @@
             },
             "country-code": 458,
             "name": "Malaysia",
+            "region": "Asia",
+            "sub-region": "South-eastern Asia",
             "total_consumption": 282.73999999999995,
             "total_emissions": 554.64
         },
@@ -3697,6 +3843,8 @@
             },
             "country-code": 462,
             "name": "Maldives",
+            "region": "Asia",
+            "sub-region": "Southern Asia",
             "total_consumption": 476.3299999999999,
             "total_emissions": 903.46
         },
@@ -3747,6 +3895,8 @@
             },
             "country-code": 470,
             "name": "Malta",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 457.53999999999996,
             "total_emissions": 1147.9099999999999
         },
@@ -3797,6 +3947,8 @@
             },
             "country-code": 480,
             "name": "Mauritius",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 358.11999999999995,
             "total_emissions": 672.0699999999999
         },
@@ -3847,6 +3999,8 @@
             },
             "country-code": 484,
             "name": "Mexico",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 242.71999999999997,
             "total_emissions": 797.1300000000001
         },
@@ -3897,6 +4051,8 @@
             },
             "country-code": 504,
             "name": "Morocco",
+            "region": "Africa",
+            "sub-region": "Northern Africa",
             "total_consumption": 296.01,
             "total_emissions": 576.42
         },
@@ -3947,6 +4103,8 @@
             },
             "country-code": 508,
             "name": "Mozambique",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 63.41,
             "total_emissions": 141.4
         },
@@ -3997,6 +4155,8 @@
             },
             "country-code": 104,
             "name": "Myanmar",
+            "region": "Asia",
+            "sub-region": "South-eastern Asia",
             "total_consumption": 275.1,
             "total_emissions": 563.8
         },
@@ -4047,6 +4207,8 @@
             },
             "country-code": 516,
             "name": "Namibia",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 151.15,
             "total_emissions": 362.11
         },
@@ -4097,6 +4259,8 @@
             },
             "country-code": 524,
             "name": "Nepal",
+            "region": "Asia",
+            "sub-region": "Southern Asia",
             "total_consumption": 208.54999999999998,
             "total_emissions": 526.2199999999999
         },
@@ -4147,6 +4311,8 @@
             },
             "country-code": 528,
             "name": "Netherlands",
+            "region": "Europe",
+            "sub-region": "Western Europe",
             "total_consumption": 534.17,
             "total_emissions": 1292.82
         },
@@ -4197,6 +4363,8 @@
             },
             "country-code": 540,
             "name": "New Caledonia",
+            "region": "Oceania",
+            "sub-region": "Melanesia",
             "total_consumption": 321.24,
             "total_emissions": 918.6200000000001
         },
@@ -4247,6 +4415,8 @@
             },
             "country-code": 554,
             "name": "New Zealand",
+            "region": "Oceania",
+            "sub-region": "Australia and New Zealand",
             "total_consumption": 360.9200000000001,
             "total_emissions": 1750.95
         },
@@ -4297,6 +4467,8 @@
             },
             "country-code": 558,
             "name": "Nicaragua",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 196.95,
             "total_emissions": 377.69
         },
@@ -4347,6 +4519,8 @@
             },
             "country-code": 562,
             "name": "Niger",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 101.14000000000001,
             "total_emissions": 542.89
         },
@@ -4397,6 +4571,8 @@
             },
             "country-code": 566,
             "name": "Nigeria",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 94.23,
             "total_emissions": 267.79
         },
@@ -4447,6 +4623,8 @@
             },
             "country-code": 578,
             "name": "Norway",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 487.49,
             "total_emissions": 1381.8899999999996
         },
@@ -4497,6 +4675,8 @@
             },
             "country-code": 512,
             "name": "Oman",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 363.67,
             "total_emissions": 1296.6999999999998
         },
@@ -4547,6 +4727,8 @@
             },
             "country-code": 586,
             "name": "Pakistan",
+            "region": "Asia",
+            "sub-region": "Southern Asia",
             "total_consumption": 330.95,
             "total_emissions": 669.0699999999999
         },
@@ -4597,6 +4779,8 @@
             },
             "country-code": 591,
             "name": "Panama",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 260.53,
             "total_emissions": 928.4599999999999
         },
@@ -4647,6 +4831,8 @@
             },
             "country-code": 600,
             "name": "Paraguay",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 189.17,
             "total_emissions": 876.6700000000001
         },
@@ -4697,6 +4883,8 @@
             },
             "country-code": 604,
             "name": "Peru",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 215.19,
             "total_emissions": 402.84000000000003
         },
@@ -4747,6 +4935,8 @@
             },
             "country-code": 608,
             "name": "Philippines",
+            "region": "Asia",
+            "sub-region": "South-eastern Asia",
             "total_consumption": 227.79000000000002,
             "total_emissions": 455.28000000000003
         },
@@ -4797,6 +4987,8 @@
             },
             "country-code": 616,
             "name": "Poland",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 411.42,
             "total_emissions": 607.4000000000001
         },
@@ -4847,6 +5039,8 @@
             },
             "country-code": 620,
             "name": "Portugal",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 459.44000000000005,
             "total_emissions": 1174.2800000000002
         },
@@ -4897,6 +5091,8 @@
             },
             "country-code": 642,
             "name": "Romania",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 445.49,
             "total_emissions": 766.3
         },
@@ -4947,6 +5143,8 @@
             },
             "country-code": 643,
             "name": "Russia",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 408.73,
             "total_emissions": 1007.66
         },
@@ -4997,6 +5195,8 @@
             },
             "country-code": 646,
             "name": "Rwanda",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 40.379999999999995,
             "total_emissions": 181.63
         },
@@ -5047,6 +5247,8 @@
             },
             "country-code": 682,
             "name": "Saudi Arabia",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 291.82000000000005,
             "total_emissions": 692.86
         },
@@ -5097,6 +5299,8 @@
             },
             "country-code": 686,
             "name": "Senegal",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 169.67,
             "total_emissions": 469.42999999999995
         },
@@ -5147,6 +5351,8 @@
             },
             "country-code": 688,
             "name": "Serbia",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 326.71000000000004,
             "total_emissions": 723.34
         },
@@ -5197,6 +5403,8 @@
             },
             "country-code": 694,
             "name": "Sierra Leone",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 167.37,
             "total_emissions": 300.40999999999997
         },
@@ -5247,6 +5455,8 @@
             },
             "country-code": 703,
             "name": "Slovakia",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 350.05999999999995,
             "total_emissions": 560.34
         },
@@ -5297,6 +5507,8 @@
             },
             "country-code": 705,
             "name": "Slovenia",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 436.40999999999997,
             "total_emissions": 1111.5599999999997
         },
@@ -5347,6 +5559,8 @@
             },
             "country-code": 710,
             "name": "South Africa",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 212.41,
             "total_emissions": 892.4100000000001
         },
@@ -5397,6 +5611,8 @@
             },
             "country-code": 410,
             "name": "South Korea",
+            "region": "Asia",
+            "sub-region": "Eastern Asia",
             "total_consumption": 286.06,
             "total_emissions": 822.0500000000001
         },
@@ -5447,6 +5663,8 @@
             },
             "country-code": 724,
             "name": "Spain",
+            "region": "Europe",
+            "sub-region": "Southern Europe",
             "total_consumption": 407.96,
             "total_emissions": 988.4699999999998
         },
@@ -5497,6 +5715,8 @@
             },
             "country-code": 144,
             "name": "Sri Lanka",
+            "region": "Asia",
+            "sub-region": "Southern Asia",
             "total_consumption": 218.76999999999998,
             "total_emissions": 294.46
         },
@@ -5547,6 +5767,8 @@
             },
             "country-code": 748,
             "name": "Swaziland",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 150.3,
             "total_emissions": 678.94
         },
@@ -5597,6 +5819,8 @@
             },
             "country-code": 752,
             "name": "Sweden",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 550.0,
             "total_emissions": 1527.0300000000002
         },
@@ -5647,6 +5871,8 @@
             },
             "country-code": 756,
             "name": "Switzerland",
+            "region": "Europe",
+            "sub-region": "Western Europe",
             "total_consumption": 514.9,
             "total_emissions": 1356.7499999999998
         },
@@ -5697,6 +5923,8 @@
             },
             "country-code": 158,
             "name": "Taiwan. ROC",
+            "region": "Asia",
+            "sub-region": "Eastern Asia",
             "total_consumption": 273.5,
             "total_emissions": 559.55
         },
@@ -5747,6 +5975,8 @@
             },
             "country-code": 834,
             "name": "Tanzania",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 98.83000000000001,
             "total_emissions": 343.02
         },
@@ -5797,6 +6027,8 @@
             },
             "country-code": 764,
             "name": "Thailand",
+            "region": "Asia",
+            "sub-region": "South-eastern Asia",
             "total_consumption": 219.57999999999998,
             "total_emissions": 378.0
         },
@@ -5847,6 +6079,8 @@
             },
             "country-code": 768,
             "name": "Togo",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 74.32000000000001,
             "total_emissions": 188.09
         },
@@ -5897,6 +6131,8 @@
             },
             "country-code": 780,
             "name": "Trinidad and Tobago",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 315.02,
             "total_emissions": 610.4100000000001
         },
@@ -5947,6 +6183,8 @@
             },
             "country-code": 788,
             "name": "Tunisia",
+            "region": "Africa",
+            "sub-region": "Northern Africa",
             "total_consumption": 370.92999999999995,
             "total_emissions": 618.89
         },
@@ -5997,6 +6235,8 @@
             },
             "country-code": 792,
             "name": "Turkey",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 433.21,
             "total_emissions": 897.0099999999999
         },
@@ -6047,6 +6287,8 @@
             },
             "country-code": 840,
             "name": "USA",
+            "region": "Americas",
+            "sub-region": "Northern America",
             "total_consumption": 491.1500000000001,
             "total_emissions": 1718.86
         },
@@ -6097,6 +6339,8 @@
             },
             "country-code": 800,
             "name": "Uganda",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 80.58,
             "total_emissions": 304.7200000000001
         },
@@ -6147,6 +6391,8 @@
             },
             "country-code": 804,
             "name": "Ukraine",
+            "region": "Europe",
+            "sub-region": "Eastern Europe",
             "total_consumption": 343.28,
             "total_emissions": 665.73
         },
@@ -6197,6 +6443,8 @@
             },
             "country-code": 784,
             "name": "United Arab Emirates",
+            "region": "Asia",
+            "sub-region": "Western Asia",
             "total_consumption": 397.71000000000004,
             "total_emissions": 897.3199999999999
         },
@@ -6247,6 +6495,8 @@
             },
             "country-code": 826,
             "name": "United Kingdom",
+            "region": "Europe",
+            "sub-region": "Northern Europe",
             "total_consumption": 447.96999999999997,
             "total_emissions": 1241.6299999999999
         },
@@ -6297,6 +6547,8 @@
             },
             "country-code": 858,
             "name": "Uruguay",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 433.59999999999997,
             "total_emissions": 1634.9099999999999
         },
@@ -6347,6 +6599,8 @@
             },
             "country-code": 862,
             "name": "Venezuela",
+            "region": "Americas",
+            "sub-region": "Latin America and the Caribbean",
             "total_consumption": 277.39000000000004,
             "total_emissions": 1104.1000000000001
         },
@@ -6397,6 +6651,8 @@
             },
             "country-code": 704,
             "name": "Vietnam",
+            "region": "Asia",
+            "sub-region": "South-eastern Asia",
             "total_consumption": 268.73999999999995,
             "total_emissions": 641.51
         },
@@ -6447,6 +6703,8 @@
             },
             "country-code": 894,
             "name": "Zambia",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 57.10999999999999,
             "total_emissions": 225.30000000000004
         },
@@ -6497,6 +6755,8 @@
             },
             "country-code": 716,
             "name": "Zimbabwe",
+            "region": "Africa",
+            "sub-region": "Sub-Saharan Africa",
             "total_consumption": 96.56000000000002,
             "total_emissions": 350.3300000000001
         }
