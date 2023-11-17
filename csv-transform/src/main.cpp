@@ -44,29 +44,29 @@ static const std::vector<std::string> s_keyNames = {
   "region",
   "population",
   "total_consumption",
-  "total_emmissions",
+  "total_emissions",
   "Beef_consumption",
-  "Beef_emmissions",
+  "Beef_emissions",
   "Eggs_consumption",
-  "Eggs_emmissions",
+  "Eggs_emissions",
   "Fish_consumption",
-  "Fish_emmissions",
+  "Fish_emissions",
   "Lamb_consumption",
-  "Lamb_emmissions",
+  "Lamb_emissions",
   "Milk_consumption",
-  "Milk_emmissions",
+  "Milk_emissions",
   "Nuts_consumption",
-  "Nuts_emmissions",
+  "Nuts_emissions",
   "Pork_consumption",
-  "Pork_emmissions",
+  "Pork_emissions",
   "Poultry_consumption",
-  "Poultry_emmissions",
+  "Poultry_emissions",
   "Rice_consumption",
-  "Rice_emmissions",
+  "Rice_emissions",
   "Soybeans_consumption",
-  "Soybeans_emmissions",
+  "Soybeans_emissions",
   "Wheat_consumption",
-  "Wheat_emmissions",
+  "Wheat_emissions",
 };
 
 static const std::vector<std::string> s_categoryNames = {
@@ -84,13 +84,13 @@ static const std::vector<std::string> s_categoryNames = {
 };
 
 /*
-id,name,region,population,total_consumption,total_emmissions,Beef_consumption,Beef_emmissions,Eggs_consumption,Eggs_emmissions,Fish_consumption,Fish_emmissions,Lamb_consumption,Lamb_emmissions,Milk_consumption,Milk_emmissions,Nuts_consumption,Nuts_emmissions,Pork_consumption,Pork_emmissions,Poultry_consumption,Poultry_emmissions,Rice_consumption,Rice_emmissions,Soybeans_consumption,Soybeans_emmissions,Wheat_consumption,Wheat_emmissions
+id,name,region,population,total_consumption,total_emissions,Beef_consumption,Beef_emissions,Eggs_consumption,Eggs_emissions,Fish_consumption,Fish_emissions,Lamb_consumption,Lamb_emissions,Milk_consumption,Milk_emissions,Nuts_consumption,Nuts_emissions,Pork_consumption,Pork_emissions,Poultry_consumption,Poultry_emissions,Rice_consumption,Rice_emissions,Soybeans_consumption,Soybeans_emissions,Wheat_consumption,Wheat_emissions
 */
 
 int main(int argc, const char* argv[])
 {
   if (argc != 5) {
-    std::cerr << "csv-transform <csv-path> <countries-json-path> <population-csv-path> <output-csv-path>\n";
+    std::cerr << "csv-transform <csv-path> <countries-json-path> <population-csv-path> <output-json-path>\n";
     return 1;
   }
 
@@ -158,7 +158,7 @@ int main(int argc, const char* argv[])
 
     const auto& categoryName = s_cleanedCategoryNames.contains(row[0zu]) ? s_cleanedCategoryNames.at(row[0zu]) : row[0zu];
     const auto consumption = std::stod(row[1]);
-    const auto emmissions = std::stod(row[2]);
+    const auto emissions = std::stod(row[2]);
 
     if (!countryData.contains("total_consumption")) {
       countryData["total_consumption"] = 0;
@@ -166,19 +166,19 @@ int main(int argc, const char* argv[])
 
     countryData["total_consumption"] = countryData["total_consumption"].get<double>() + consumption;
 
-    if (!countryData.contains("total_emmissions")) {
-      countryData["total_emmissions"] = 0;
+    if (!countryData.contains("total_emissions")) {
+      countryData["total_emissions"] = 0;
     }
 
-    countryData["total_emmissions"] = countryData["total_emmissions"].get<double>() + emmissions;
+    countryData["total_emissions"] = countryData["total_emissions"].get<double>() + emissions;
 
     for (const auto& category : s_categoryNames) {
       if (category == categoryName) {
         const auto consumptionKeyName = category + "_consumption";
-        const auto emmissionsKeyName = category + "_emmissions";
+        const auto emissionsKeyName = category + "_emissions";
 
         countryData[consumptionKeyName] = consumption;
-        countryData[emmissionsKeyName] = emmissions;
+        countryData[emissionsKeyName] = emissions;
 
         break;
       }
@@ -187,12 +187,29 @@ int main(int argc, const char* argv[])
 
   nlohmann::json finalJson;
   finalJson["countries"] = nlohmann::json::array();
+  finalJson["categories"] = nlohmann::json::array();
 
   for (auto country = countries.begin(); country != countries.end(); country++) {
     const auto& countryName = country.key();
     auto countryData = country.value(); // copy
     countryData["name"] = countryName;
     finalJson["countries"].push_back(countryData);
+  }
+
+  for (const auto& category : s_categoryNames) {
+    auto data = nlohmann::json();
+    auto totalConsumption = 0.0, totalEmissions = 0.0;
+    for (const auto& country : finalJson["countries"]) {
+      const auto consumption = country[category + "_consumption"].get<double>();
+      const auto emissions = country[category + "_emissions"].get<double>();
+      totalConsumption += consumption;
+      totalEmissions += emissions;
+    }
+
+    data["category"] = category;
+    data["emissions_per_kilo_consumption"] = totalEmissions / totalConsumption;
+
+    finalJson["categories"].push_back(data);
   }
 
   std::ofstream outStream{outputJsonPath};
