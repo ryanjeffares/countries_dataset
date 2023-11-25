@@ -205,7 +205,8 @@ int main(int argc, const char* argv[])
       for (const auto& category : s_categoryNames) {
         if (category == foodData["name"]) {
           const auto consumption = foodData["consumption"].get<double>();
-          foodData["percentage_of_total_consumption"] = (consumption / totalConsumption) * 100.0;
+          const auto percentage = (consumption / totalConsumption) * 100.0;
+          countryData[category + "_percentage_of_total_consumption"] = percentage;
           break;
         }
       }
