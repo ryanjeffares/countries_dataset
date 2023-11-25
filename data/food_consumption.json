@@ -48,7 +48,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 138.64,
@@ -96,7 +97,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 7.42,
@@ -110,7 +112,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 185.42000000000002,
@@ -237,7 +240,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 103.11,
@@ -300,7 +304,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 130.6,
@@ -540,7 +545,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 1.4,
@@ -1228,7 +1234,8 @@
             },
             "Lamb": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Milk": {
                 "consumption": 3.4699999999999998,
@@ -1641,7 +1648,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 40.07,
@@ -1768,7 +1776,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 106.59,
@@ -2087,7 +2096,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 39.190000000000005,
@@ -2662,7 +2672,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 37.91,
@@ -2725,7 +2736,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 163.43,
@@ -3108,7 +3120,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 18.55,
@@ -3540,7 +3553,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 25.38,
@@ -3554,7 +3568,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 153.31,
@@ -3809,7 +3824,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 70.66999999999999,
@@ -4113,7 +4129,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 53.61,
@@ -4511,7 +4528,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 9.01,
@@ -4958,7 +4976,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 179.7,
@@ -5533,7 +5552,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 4.79,
@@ -5773,7 +5793,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 5.01,
@@ -5787,7 +5808,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 113.63,
@@ -5914,7 +5936,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 31.51,
@@ -6410,7 +6433,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 49.05,
@@ -6488,7 +6512,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 37.32,
@@ -6551,7 +6576,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 105.88,
@@ -6614,7 +6640,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 8.719999999999999,
@@ -6997,7 +7024,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 37.01,
@@ -7557,7 +7585,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 18.5,
@@ -7876,7 +7905,8 @@
             },
             "Pork": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Poultry": {
                 "consumption": 41.04,
@@ -8082,7 +8112,8 @@
             },
             "Soybeans": {
                 "consumption": 0.0,
-                "emissions": 0.0
+                "emissions": 0.0,
+                "emissions_per_kilo_consumption": 0.0
             },
             "Wheat": {
                 "consumption": 49.17,

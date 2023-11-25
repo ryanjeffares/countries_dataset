@@ -179,6 +179,8 @@ int main(int argc, const char* argv[])
 
         if (consumption > 0) {
           countryData[category]["emissions_per_kilo_consumption"] = emissions / consumption;
+        } else {
+          countryData[category]["emissions_per_kilo_consumption"] = 0.0;
         }
         break;
       }
