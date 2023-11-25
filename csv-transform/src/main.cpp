@@ -160,18 +160,26 @@ int main(int argc, const char* argv[])
     const auto consumption = std::stod(row[1]);
     const auto emissions = std::stod(row[2]);
 
-    if (!countryData.contains("Total")) {
-      countryData["Total"]["consumption"] = 0;
-      countryData["Total"]["emissions"] = 0;
+    if (!countryData.contains("total_consumption")) {
+      countryData["total_consumption"] = 0;
     }
 
-    countryData["Total"]["consumption"] = countryData["Total"]["consumption"].get<double>() + consumption;
-    countryData["Total"]["emissions"] = countryData["Total"]["emissions"].get<double>() + consumption;
+    countryData["total_consumption"] = countryData["total_consumption"].get<double>() + consumption;
+
+    if (!countryData.contains("total_emissions")) {
+      countryData["total_emissions"] = 0;
+    }
+
+    countryData["total_emissions"] = countryData["total_emissions"].get<double>() + emissions;
 
     for (const auto& category : s_categoryNames) {
       if (category == categoryName) {
-        countryData[category]["consumption"] = consumption;
-        countryData[category]["emissions"] = emissions;
+        const auto consumptionKeyName = category + "_consumption";
+        const auto emissionsKeyName = category + "_emissions";
+
+        countryData[consumptionKeyName] = consumption;
+        countryData[emissionsKeyName] = emissions;
+
         break;
       }
     }
@@ -192,8 +200,8 @@ int main(int argc, const char* argv[])
     auto data = nlohmann::json();
     auto totalConsumption = 0.0, totalEmissions = 0.0;
     for (const auto& country : finalJson["countries"]) {
-      const auto consumption = country[category]["consumption"].get<double>();
-      const auto emissions = country[category]["emissions"].get<double>();
+      const auto consumption = country[category + "_consumption"].get<double>();
+      const auto emissions = country[category + "_emissions"].get<double>();
       totalConsumption += consumption;
       totalEmissions += emissions;
     }
