@@ -191,6 +191,7 @@ int main(int argc, const char* argv[])
   nlohmann::json finalJson;
   finalJson["countries"] = nlohmann::json::array();
   finalJson["food_data"] = nlohmann::json::array();
+  finalJson["country_food_data"] = nlohmann::json::array();
 
   for (auto country = countries.begin(); country != countries.end(); country++) {
     const auto& countryName = country.key();
@@ -236,6 +237,17 @@ int main(int argc, const char* argv[])
     data["emissions_per_kilo_consumption"] = totalEmissionsPerConsumption;
 
     finalJson["food_data"].push_back(std::move(data));
+  }
+
+  for (const auto& categoryName : s_categoryNames) {
+    for (const auto& country : finalJson["countries"]) {
+      nlohmann::json data;
+      data["name"] = country["name"];
+      data["region"] = country["region"];
+      data["food"] = categoryName;
+      data["percentage_of_total_consumption"] = country[categoryName + "_percentage_of_total_consumption"];
+      finalJson["country_food_data"].push_back(std::move(data));
+    }
   }
 
   std::ofstream outStream{outputJsonPath};
