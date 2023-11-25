@@ -172,16 +172,17 @@ int main(int argc, const char* argv[])
 
     countryData["total_emissions"] = countryData["total_emissions"].get<double>() + emissions;
 
+    if (!countryData.contains("food_data")) {
+      countryData["food_data"] = nlohmann::json::array();
+    }
+
     for (const auto& category : s_categoryNames) {
       if (category == categoryName) {
-        countryData[category]["consumption"] = consumption;
-        countryData[category]["emissions"] = emissions;
-
-        if (consumption > 0) {
-          countryData[category]["emissions_per_kilo_consumption"] = emissions / consumption;
-        } else {
-          countryData[category]["emissions_per_kilo_consumption"] = 0.0;
-        }
+        nlohmann::json foodData;
+        foodData["name"] = categoryName;
+        foodData["consumption"] = consumption;
+        foodData["emissions"] = emissions;
+        countryData["food_data"].push_back(std::move(foodData));
         break;
       }
     }
@@ -189,13 +190,51 @@ int main(int argc, const char* argv[])
 
   nlohmann::json finalJson;
   finalJson["countries"] = nlohmann::json::array();
+  finalJson["food_data"] = nlohmann::json::array();
 
   for (auto country = countries.begin(); country != countries.end(); country++) {
     const auto& countryName = country.key();
     auto countryData = country.value(); // copy
+
     countryData["total_emissions_per_kilo_consumption"] = countryData["total_emissions"].get<double>() / countryData["total_consumption"].get<double>();
     countryData["name"] = countryName;
+
+    const auto totalConsumption = countryData["total_consumption"].get<double>();
+
+    for (auto& foodData : countryData["food_data"]) {
+      for (const auto& category : s_categoryNames) {
+        if (category == foodData["name"]) {
+          const auto consumption = foodData["consumption"].get<double>();
+          foodData["percentage_of_total_consumption"] = (consumption / totalConsumption) * 100.0;
+          break;
+        }
+      }
+    }
+
     finalJson["countries"].push_back(countryData);
+  }
+
+  for (const auto& categoryName : s_categoryNames) {
+    auto totalConsumption = 0.0, totalEmissions = 0.0;
+
+    for (const auto& country : finalJson["countries"]) {
+      for (const auto& category : country["food_data"]) {
+        if (category["name"] == categoryName) {
+          const auto consumption = category["consumption"].get<double>();
+          const auto emissions = category["emissions"].get<double>();
+          totalConsumption += consumption;
+          totalEmissions += emissions;
+          break;
+        }
+      }
+    }
+
+    auto totalEmissionsPerConsumption = totalEmissions / totalConsumption;
+    nlohmann::json data;
+    data["name"] = categoryName;
+    data["emissions_per_kilo_consumption"] = totalEmissionsPerConsumption;
+
+    finalJson["food_data"].push_back(std::move(data));
   }
 
   std::ofstream outStream{outputJsonPath};
