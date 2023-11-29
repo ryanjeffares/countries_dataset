@@ -243,6 +243,7 @@ int main(int argc, const char* argv[])
     for (const auto& country : finalJson["countries"]) {
       nlohmann::json data;
       data["name"] = country["name"];
+      data["id"] = country["id"];
       data["region"] = country["region"];
       data["food"] = categoryName;
       data["percentage_of_total_consumption"] = country[categoryName + "_percentage_of_total_consumption"];
