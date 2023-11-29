@@ -246,6 +246,7 @@ int main(int argc, const char* argv[])
       data["region"] = country["region"];
       data["food"] = categoryName;
       data["percentage_of_total_consumption"] = country[categoryName + "_percentage_of_total_consumption"];
+      data["total_emissions_per_kilo_consumption"] = country["total_emissions_per_kilo_consumption"];
 
       const auto& foodData = country["food_data"];
       const auto foodDataIt = *std::find_if(foodData.begin(), foodData.end(), [&categoryName] (const auto& data) {
