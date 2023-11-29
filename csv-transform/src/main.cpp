@@ -245,10 +245,16 @@ int main(int argc, const char* argv[])
       data["name"] = country["name"];
       data["region"] = country["region"];
       data["food"] = categoryName;
-      data["total_consumption"] = country["total_consumption"];
-      data["total_emissions"] = country["total_emissions"];
-      data["food"] = categoryName;
       data["percentage_of_total_consumption"] = country[categoryName + "_percentage_of_total_consumption"];
+
+      const auto& foodData = country["food_data"];
+      const auto foodDataIt = *std::find_if(foodData.begin(), foodData.end(), [&categoryName] (const auto& data) {
+        return data["name"] == categoryName;
+      });
+
+      data["total_consumption"] = foodDataIt["consumption"];
+      data["total_emissions"] = foodDataIt["emissions"];
+
       finalJson["country_food_data"].push_back(std::move(data));
     }
   }
